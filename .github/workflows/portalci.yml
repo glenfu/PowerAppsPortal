@@ -17,6 +17,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
+    environment: gfu prod
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -28,12 +29,12 @@ jobs:
       - name: upload-paportal action
         uses: microsoft/powerplatform-actions/upload-paportal@0.4.3
         with:
-          environment-url: ${{env.ENVIRONMENT_URL}}
-          app-id: ${{env.CLIENT_ID}}
+          environment-url: ${{secrets.ENVIRONMENT_URL}}
+          app-id: ${{secrets.CLIENT_ID}}
           # using secrets GitHub variable to securely use stored credentials
           # see how to use credentials - https://docs.github.com/en/actions/security-guides/encrypted-secrets
           client-secret: ${{secrets.DATAVERSESPN}}
-          tenant-id: ${{env.TENANT_ID}}
-          upload-path: ${{env.PORTAL_PATH}}
+          tenant-id: ${{secrets.TENANT_ID}}
+          upload-path: ${{secrets.PORTAL_PATH}}
           # uncomment next line to use deployment profiles
           # deployment-profile: PROFILE_NAME
