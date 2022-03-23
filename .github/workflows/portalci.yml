@@ -14,13 +14,6 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-env:
-# edit your values here
-  ENVIRONMENT_URL: https://gfuprod.crm5.dynamics.com/
-  CLIENT_ID: 9897cc97-8c8f-4d83-bb9e-843b05917a3a
-  TENANT_ID: 1557f771-4c8e-4dbd-8b80-dd00a88e833e
-  PORTAL_PATH: gfudev---gfudev
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
