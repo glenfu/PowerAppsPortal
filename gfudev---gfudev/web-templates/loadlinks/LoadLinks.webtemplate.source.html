@@ -1,0 +1,70 @@
+{% extends 'Layout 1 Column' %}
+{% block main %}
+{% include 'safeAjax' %}
+
+<style>
+a:link, a:visited {
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#linksTable {
+    margin: 0 auto;
+}
+.img-container {
+    text-align: center;
+}
+span.b {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  padding: 20px; 
+  margin: 50 50;
+}
+
+</style>
+<div id="linksTable">
+</div>
+
+<script>
+    function loadLinks() {
+        var contactId = "{{user.id}}";
+        webapi.safeAjax({
+            type: "GET",
+	        url: "/_api/contacts?$select=fullname&$expand=cre1b_Link_Contact_Contact($select=cre1b_imageurl,cre1b_name,cre1b_url)&$filter=contactid eq " + contactId,
+            contentType: "application/json",
+            success: function (data, textStatus, xhr) {
+                var result = data;
+                //var $table = $("<table class=\"styled-table\">");
+                var $links = $('#linksTable');
+                console.log(result);
+                //$table.append("<thead>").children('thead').append("<tr />").children('tr').append("<th>Name</th>");
+                //var $tbody = $table.append('<tbody />').children('tbody');
+                for (var i = 0; i < result.value.length; i++) {
+                    var result = result.value[i];
+                    // Columns
+                    var contactid = result["contactid"]; // Guid
+                    var fullname = result["fullname"]; // Text
+                    
+                    // Many To Many Relationships
+                    for (var j = 0; j < result.cre1b_Link_Contact_Contact.length; j++) {
+                        var cre1b_Link_Contact_Contact_cre1b_imageurl = result.cre1b_Link_Contact_Contact[j]["cre1b_imageurl"]; // Text
+                        var cre1b_Link_Contact_Contact_cre1b_name = result.cre1b_Link_Contact_Contact[j]["cre1b_name"]; // Text
+                        var cre1b_Link_Contact_Contact_cre1b_url = result.cre1b_Link_Contact_Contact[j]["cre1b_url"]; // Text
+                        $links.append("<span class=\"b\"><a href=\"" + cre1b_Link_Contact_Contact_cre1b_url + "\">"+ cre1b_Link_Contact_Contact_cre1b_name +"<div class=\"img-container\"><img src=\"" + cre1b_Link_Contact_Contact_cre1b_imageurl + "\" height=100 width=100></img></div></a></span>");
+                        //$tbody.append('<tr />').children('tr:last')
+                        //.append("<td><a href=\"" + cre1b_Link_Contact_Contact_cre1b_url + "\">"+ cre1b_Link_Contact_Contact_cre1b_name +"<div class=\"img-container\"><img src=\"" + cre1b_Link_Contact_Contact_cre1b_imageurl + "\" height=100 width=100></img></div></a></td>");  
+                    }
+                    //$links.appendTo("#linksTable");
+                }
+            }
+        });
+    }
+
+    $(function() {
+        loadLinks();
+    });
+</script>
+{% endblock %}

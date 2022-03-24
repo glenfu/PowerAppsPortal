@@ -1,0 +1,8 @@
+
+$primaryColor: #F4CF2C;
+$headerColor: #3F3F3F;
+$headerMenuColor: #FFFFFF;
+$headerMenuHoverColor: #F4CF2C;
+$bodyBackground: #1F1F1F;
+$footerColor: #3F3F3F;
+$footerTextColor: #ffffff;

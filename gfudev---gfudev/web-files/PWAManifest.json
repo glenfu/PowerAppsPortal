@@ -1,0 +1,1 @@
+{"name":"Contoso - Dev Portal","short_name":"Contoso - Dev Portal","description":"Contoso - Dev Portal","display":"standalone","start_url":"/","scope":"/","orientation":"any","theme_color":"#000000","background_color":"rgba(26, 25, 24, 0.29)","icons":[{"src":"/contoso.png","sizes":"512x512","type":"image/png"}]}

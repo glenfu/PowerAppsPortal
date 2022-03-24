@@ -11,6 +11,9 @@
 - adx_name: Page Not Found
   adx_pageid: e6fbdba9-7eaa-ec11-9840-00224817a7df
   adx_sitemarkerid: 737f85a3-7eaa-ec11-9840-00224817a4f6
+- adx_name: Default Offline Page
+  adx_pageid: 941e1f3e-18ab-ec11-9840-00224817a4f6
+  adx_sitemarkerid: b2cf0545-18ab-ec11-9840-00224817a4f6
 - adx_name: Event Feedback
   adx_sitemarkerid: b351e1a3-7eaa-ec11-9840-00224817a7df
 - adx_name: Profile

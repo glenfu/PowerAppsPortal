@@ -1,6 +1,18 @@
+- adx_name: Webapi/contact/enabled
+  adx_sitesettingid: 1e7b49cb-3cab-ec11-9840-00224817a4f6
+  adx_value: true
+- adx_name: Webapi/cre1b_link/enabled
+  adx_sitesettingid: 3316636c-40ab-ec11-9840-00224817a4f6
+  adx_value: true
+- adx_name: Webapi/account/fields
+  adx_sitesettingid: 50f9ff1f-28ab-ec11-9840-00224817a4f6
+  adx_value: '*'
 - adx_name: HTTP/X-Frame-Options
   adx_sitesettingid: 757f85a3-7eaa-ec11-9840-00224817a4f6
   adx_value: SAMEORIGIN
+- adx_name: Webapi/cre1b_link/fields
+  adx_sitesettingid: 7606be79-40ab-ec11-9840-00224817a4f6
+  adx_value: cre1b_name,cre1b_url,cre1b_imageurl,cre1b_Link_Contact_Contact
 - adx_name: Search/Enabled
   adx_sitesettingid: 767f85a3-7eaa-ec11-9840-00224817a4f6
   adx_value: true
@@ -59,10 +71,22 @@
   adx_name: Authentication/Registration/DenyMinors
   adx_sitesettingid: 867f85a3-7eaa-ec11-9840-00224817a4f6
   adx_value: false
+- adx_name: Webapi/account/enabled
+  adx_sitesettingid: a6d76a13-28ab-ec11-9840-00224817a4f6
+  adx_value: true
+- adx_name: WebAPI/enableReadOperationPreview
+  adx_sitesettingid: b0c848f9-27ab-ec11-9840-00224817a4f6
+  adx_value: true
+- adx_name: PWAFeature
+  adx_sitesettingid: b5cf0545-18ab-ec11-9840-00224817a4f6
+  adx_value: '{"status":"enable"}'
 - adx_description: A true or false value. If set to true, the local account will be marked as deprecated. The portal user will be required to migrate to a non-deprecated account.
   adx_name: Authentication/Registration/LocalLoginDeprecated
   adx_sitesettingid: b951e1a3-7eaa-ec11-9840-00224817a7df
   adx_value: False
+- adx_name: Webapi/contact/fields
+  adx_sitesettingid: b9ebffd7-3cab-ec11-9840-00224817a4f6
+  adx_value: '*'
 - adx_description: 'The amount of time the Authentication/LoginThrottling/MaxInvaildAttemptsFromIPAddress are to be within before the IP address has to wait Authentication/LoginThrottling/IpAddressTimeoutTimeSpan. Default: 00:03:00 (3 mins)'
   adx_name: Authentication/LoginThrottling/MaxAttemptsTimeLimitTimeSpan
   adx_sitesettingid: ba51e1a3-7eaa-ec11-9840-00224817a7df
@@ -134,6 +158,9 @@
   adx_sitesettingid: cf51e1a3-7eaa-ec11-9840-00224817a7df
   adx_value: true
   importsequencenumber: 3
+- adx_name: Webapi/error/innererror
+  adx_sitesettingid: d223752d-28ab-ec11-9840-00224817a4f6
+  adx_value: true
 - adx_description: Set whether the footer web template is output cached.
   adx_name: Footer/OutputCache/Enabled
   adx_sitesettingid: d251e1a3-7eaa-ec11-9840-00224817a7df
@@ -161,4 +188,4 @@
   importsequencenumber: 3
 - adx_name: ThemeFeature
   adx_sitesettingid: e0974228-91eb-eb11-94f0-000d3a999477
-  adx_value: '{"status":"enable","selectedThemeId":"215708aa-2dcb-4ec1-829b-7121994ebcc3","siteSettingId":"e0974228-91eb-eb11-94f0-000d3a999477"}'
+  adx_value: '{"status":"enable","selectedThemeId":"f21551a1-7244-432f-ad88-220609e070d3","siteSettingId":"e0974228-91eb-eb11-94f0-000d3a999477"}'

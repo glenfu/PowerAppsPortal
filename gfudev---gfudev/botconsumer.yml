@@ -1,0 +1,4 @@
+- adx_botconsumerid: b62eedb3-3bab-ec11-9840-00224817a7df
+  adx_configjson: '{"webChatHeaderStyleOptions":{"fontColor":"#9C9A98","backgroundColor":"#464442"},"webChatCanvasStyleOptions":{"backgroundColor":"#FFFFFF","bubbleBackground":"#5C5A58","bubbleTextColor":"#323130","bubbleFromUserBackground":"#5C5A58","bubbleFromUserTextColor":"#323130"},"webChatWidgetStyleOptions":{"iconColor":"#9C9A98","backgroundColor":"#464442"}}'
+  adx_name: botConsumer
+  versionnumber: 4822821
