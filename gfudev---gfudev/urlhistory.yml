@@ -13,6 +13,16 @@
   adx_urlhistoryid: 105f433e-f36b-1410-8c88-00290fad9fec
   adx_webpageid: aa2b5ef0-5e8d-4826-a457-2f6acc73e25d
   timezoneruleversionnumber: 0
+- adx_changeddate: 2022-03-29T07:27:22.0000000Z
+  adx_name: ~/new-page
+  adx_urlhistoryid: 1244433e-f36b-1410-8072-0092f99bcdb0
+  adx_webpageid: 911e459c-31af-ec11-983f-00224818dcfe
+  timezoneruleversionnumber: 0
+- adx_changeddate: 2022-03-29T07:27:22.0000000Z
+  adx_name: ~/new-page
+  adx_urlhistoryid: 1344433e-f36b-1410-8072-0092f99bcdb0
+  adx_webpageid: a69ff0b2-c085-47a5-baef-52b275d63ec4
+  timezoneruleversionnumber: 0
 - adx_changeddate: 2022-03-24T08:51:52.0000000Z
   adx_name: ~/new-page
   adx_urlhistoryid: 135f433e-f36b-1410-8c88-00290fad9fec
@@ -28,25 +38,55 @@
   adx_urlhistoryid: 72b1433e-f36b-1410-849e-005e7bd3255f
   adx_webpageid: 3d0c0c72-c6c8-4ba5-9b26-8af058bf5de6
   timezoneruleversionnumber: 0
+- adx_changeddate: 2022-03-29T10:45:42.0000000Z
+  adx_name: ~/knowledgearticles
+  adx_urlhistoryid: 7849433e-f36b-1410-829d-00535b497f34
+  adx_webpageid: 911e459c-31af-ec11-983f-00224818dcfe
+  timezoneruleversionnumber: 0
+- adx_changeddate: 2022-03-29T10:45:43.0000000Z
+  adx_name: ~/knowledgearticles
+  adx_urlhistoryid: 7c49433e-f36b-1410-829d-00535b497f34
+  adx_webpageid: a69ff0b2-c085-47a5-baef-52b275d63ec4
+  timezoneruleversionnumber: 0
 - adx_changeddate: 2022-03-24T06:41:47.0000000Z
   adx_name: ~/PortalWebAPI
   adx_urlhistoryid: 80e9423e-f36b-1410-8495-00fee782f70b
   adx_webpageid: f13b0382-2aab-ec11-9840-00224817a4f6
+  timezoneruleversionnumber: 0
+- adx_changeddate: 2022-03-29T10:45:46.0000000Z
+  adx_name: ~/knowledgearticles-deleted
+  adx_urlhistoryid: 8149433e-f36b-1410-829d-00535b497f34
+  adx_webpageid: a69ff0b2-c085-47a5-baef-52b275d63ec4
   timezoneruleversionnumber: 0
 - adx_changeddate: 2022-03-24T06:42:06.0000000Z
   adx_name: ~/custom-profile/PortalWebAPI
   adx_urlhistoryid: 82e9423e-f36b-1410-8495-00fee782f70b
   adx_webpageid: f13b0382-2aab-ec11-9840-00224817a4f6
   timezoneruleversionnumber: 0
+- adx_changeddate: 2022-03-29T10:46:11.0000000Z
+  adx_name: ~/new-page
+  adx_urlhistoryid: 8649433e-f36b-1410-829d-00535b497f34
+  adx_webpageid: 3857352f-128c-4673-8603-b63512105235
+  timezoneruleversionnumber: 0
 - adx_changeddate: 2022-03-24T06:42:07.0000000Z
   adx_name: ~/PortalWebAPI
   adx_urlhistoryid: 89e9423e-f36b-1410-8495-00fee782f70b
   adx_webpageid: f13b0382-2aab-ec11-9840-00224817a4f6
   timezoneruleversionnumber: 0
+- adx_changeddate: 2022-03-29T10:45:46.0000000Z
+  adx_name: ~/knowledgearticles-deleted
+  adx_urlhistoryid: 8b0a433e-f36b-1410-8c45-000d1a1c9ca7
+  adx_webpageid: 911e459c-31af-ec11-983f-00224818dcfe
+  timezoneruleversionnumber: 0
 - adx_changeddate: 2022-03-24T06:42:17.0000000Z
   adx_name: ~/custom-profile
   adx_urlhistoryid: 8ee9423e-f36b-1410-8495-00fee782f70b
   adx_webpageid: 3d0c0c72-c6c8-4ba5-9b26-8af058bf5de6
+  timezoneruleversionnumber: 0
+- adx_changeddate: 2022-03-29T10:46:11.0000000Z
+  adx_name: ~/new-page
+  adx_urlhistoryid: 910a433e-f36b-1410-8c45-000d1a1c9ca7
+  adx_webpageid: 65e64861-4daf-ec11-983f-00224818d851
   timezoneruleversionnumber: 0
 - adx_changeddate: 2022-03-24T06:42:17.0000000Z
   adx_name: ~/custom-profile

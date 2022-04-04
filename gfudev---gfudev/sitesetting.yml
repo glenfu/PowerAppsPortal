@@ -48,6 +48,9 @@
   importsequencenumber: 5
 - adx_name: Authentication/OpenAuth/LinkedIn/ConsumerSecret
   adx_sitesettingid: 807f85a3-7eaa-ec11-9840-00224817a4f6
+- adx_name: Search/EnableAdditionalEntities
+  adx_sitesettingid: 812ab021-30af-ec11-983f-00224818d851
+  adx_value: true
 - adx_name: Authentication/OpenAuth/Twitter/ConsumerKey
   adx_sitesettingid: 817f85a3-7eaa-ec11-9840-00224817a4f6
   importsequencenumber: 5
@@ -71,6 +74,9 @@
   adx_name: Authentication/Registration/DenyMinors
   adx_sitesettingid: 867f85a3-7eaa-ec11-9840-00224817a4f6
   adx_value: false
+- adx_name: Search/EnableDataverseSearch
+  adx_sitesettingid: 9bdfb71b-30af-ec11-983f-00224818d851
+  adx_value: true
 - adx_name: Webapi/account/enabled
   adx_sitesettingid: a6d76a13-28ab-ec11-9840-00224817a4f6
   adx_value: true
@@ -139,6 +145,7 @@
     This value should be in the form of name/value pairs, with name and value separated by a colon, and pairs separated by a semicolon. For example: "Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Blogs:adx_blog,adx_blogpost,adx_blogpostcomment".
   adx_name: search/filters
   adx_sitesettingid: ca51e1a3-7eaa-ec11-9840-00224817a7df
+  adx_value: KnowledgeArticles:knowledgearticle
 - adx_name: Authentication/OpenAuth/Microsoft/ClientSecret
   adx_sitesettingid: cb51e1a3-7eaa-ec11-9840-00224817a7df
   importsequencenumber: 5

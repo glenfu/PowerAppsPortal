@@ -79,6 +79,17 @@
   adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
 - adx_disablepagevalidation: false
   adx_displayimageonly: false
+  adx_displayorder: 12
+  adx_displaypagechildlinks: false
+  adx_name: Knowledge Articles
+  adx_openinnewwindow: false
+  adx_pageid: 3857352f-128c-4673-8603-b63512105235
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: 7e59cdde-38f2-427f-87a7-a02b2b2c6f6e
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
   adx_displayorder: 4
   adx_displaypagechildlinks: false
   adx_name: PortalWebAPI
@@ -88,6 +99,19 @@
   adx_robotsfollowlink: true
   adx_weblinkid: 87106d90-f1f8-4dea-857e-220ea0a01f1a
   adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
+  adx_displayorder: 11
+  adx_displaypagechildlinks: false
+  adx_name: Knowledge Articles
+  adx_openinnewwindow: false
+  adx_pageid: a69ff0b2-c085-47a5-baef-52b275d63ec4
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: 905ef1c1-75fb-4e69-aa97-9dab67f9b18e
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+  statecode: 1
+  statuscode: 2
 - adx_disablepagevalidation: false
   adx_displayimageonly: false
   adx_displayorder: 1
