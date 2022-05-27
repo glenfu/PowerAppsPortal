@@ -1,5 +1,16 @@
 - adx_disablepagevalidation: false
   adx_displayimageonly: false
+  adx_displayorder: 8
+  adx_displaypagechildlinks: false
+  adx_name: Partners
+  adx_openinnewwindow: false
+  adx_pageid: b59b0bf2-9b92-4bb1-b231-6ddcef1bf8da
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: 008ce440-7bdd-ec11-bb3c-00224817478b
+  adx_weblinksetid: 7974ada9-7eaa-ec11-9840-00224817a4f6
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
   adx_displayorder: 4
   adx_displaypagechildlinks: false
   adx_name: Contacts

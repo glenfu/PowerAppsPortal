@@ -28,6 +28,11 @@
   adx_urlhistoryid: 135f433e-f36b-1410-8c88-00290fad9fec
   adx_webpageid: e172c190-4fab-ec11-9840-00224817a7df
   timezoneruleversionnumber: 0
+- adx_changeddate: 2022-05-26T10:12:28.0000000Z
+  adx_name: ~/new-page
+  adx_urlhistoryid: 17da423e-f36b-1410-8997-002cef690efb
+  adx_webpageid: b59b0bf2-9b92-4bb1-b231-6ddcef1bf8da
+  timezoneruleversionnumber: 0
 - adx_changeddate: 2022-03-24T00:13:49.0000000Z
   adx_name: ~/new-page
   adx_urlhistoryid: 6fb1433e-f36b-1410-849e-005e7bd3255f
@@ -127,6 +132,11 @@
 - adx_changeddate: 2022-03-24T03:14:02.0000000Z
   adx_name: ~/portalwebapi
   adx_urlhistoryid: ad45433e-f36b-1410-8126-00750c156482
+  timezoneruleversionnumber: 0
+- adx_changeddate: 2022-05-26T10:12:28.0000000Z
+  adx_name: ~/new-page
+  adx_urlhistoryid: aea9433e-f36b-1410-897f-006d94bc65f4
+  adx_webpageid: 7223bb43-dcdc-ec11-bb3c-002248174cae
   timezoneruleversionnumber: 0
 - adx_changeddate: 2022-03-24T06:41:51.0000000Z
   adx_name: ~/PortalWebAPI

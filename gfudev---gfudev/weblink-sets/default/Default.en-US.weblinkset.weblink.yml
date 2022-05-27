@@ -79,6 +79,17 @@
   adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
 - adx_disablepagevalidation: false
   adx_displayimageonly: false
+  adx_displayorder: 13
+  adx_displaypagechildlinks: false
+  adx_name: Partners
+  adx_openinnewwindow: false
+  adx_pageid: b59b0bf2-9b92-4bb1-b231-6ddcef1bf8da
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: 79b1ff2e-6e05-4022-a6da-506f0330b7e2
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
   adx_displayorder: 12
   adx_displaypagechildlinks: false
   adx_name: Knowledge Articles
