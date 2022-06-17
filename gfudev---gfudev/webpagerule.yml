@@ -1,3 +1,10 @@
+- adx_name: Restrict Read on Manage Apps
+  adx_right: 2
+  adx_webpageaccesscontrolrule_webrole:
+  - 8974ada9-7eaa-ec11-9840-00224817a4f6
+  - 8a74ada9-7eaa-ec11-9840-00224817a4f6
+  adx_webpageaccesscontrolruleid: 6bbf8a05-c7df-ec11-bb3d-002248174cae
+  adx_webpageid: 0662fbb9-41ab-ec11-9840-00224817a4f6
 - adx_name: Restrict Read on Portal Web API
   adx_right: 2
   adx_webpageaccesscontrolrule_webrole:

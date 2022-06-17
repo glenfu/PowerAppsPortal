@@ -31,7 +31,7 @@
   adx_robotsfollowlink: true
   adx_weblinkid: 36c805e3-3eab-ec11-9840-00224817a4f6
   adx_weblinksetid: 7974ada9-7eaa-ec11-9840-00224817a4f6
-- adx_disablepagevalidation: false
+- adx_disablepagevalidation: true
   adx_displayimageonly: false
   adx_displayorder: 7
   adx_displaypagechildlinks: false
@@ -99,4 +99,15 @@
   adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
   adx_robotsfollowlink: true
   adx_weblinkid: cafbdba9-7eaa-ec11-9840-00224817a7df
+  adx_weblinksetid: 7974ada9-7eaa-ec11-9840-00224817a4f6
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
+  adx_displayorder: 9
+  adx_displaypagechildlinks: false
+  adx_name: Cases
+  adx_openinnewwindow: false
+  adx_pageid: 80d9b0e3-567d-40e7-93d5-c6b3171be73b
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: d265bed4-93ec-ec11-bb3c-002248174cae
   adx_weblinksetid: 7974ada9-7eaa-ec11-9840-00224817a4f6

@@ -7,6 +7,9 @@
 - adx_name: Webapi/account/fields
   adx_sitesettingid: 50f9ff1f-28ab-ec11-9840-00224817a4f6
   adx_value: '*'
+- adx_name: Authentication/OpenIdConnect/AzureAD/AllowContactMappingWithEmail
+  adx_sitesettingid: 573228b6-53ec-ec11-bb3c-002248174cae
+  adx_value: true
 - adx_name: HTTP/X-Frame-Options
   adx_sitesettingid: 757f85a3-7eaa-ec11-9840-00224817a4f6
   adx_value: SAMEORIGIN
@@ -36,7 +39,6 @@
 - adx_description: 'Override query for site search, to apply additional weights and filters. @Query is the query text entered by a user. Lucene query syntax reference: http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html'
   adx_name: search/query
   adx_sitesettingid: 7c7f85a3-7eaa-ec11-9840-00224817a4f6
-  adx_value: +(@Query) _title:(@Query) _logicalname:knowledgearticle~0.9^0.3 _logicalname:annotation~0.9^0.25 _logicalname:adx_webpage~0.9^0.2 -_logicalname:adx_webfile~0.9 adx_partialurl:(@Query) _logicalname:adx_blogpost~0.9^0.1 -_logicalname:adx_communityforumthread~0.9
 - adx_name: Search/IndexQueryName
   adx_sitesettingid: 7d7f85a3-7eaa-ec11-9840-00224817a4f6
   adx_value: Portal Search
