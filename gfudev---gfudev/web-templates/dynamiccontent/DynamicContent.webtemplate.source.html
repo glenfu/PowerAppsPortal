@@ -1,0 +1,19 @@
+{% extends 'Layout 1 Column' %}
+{% block main %}
+    {% if user.roles contains 'testrole'%}
+            <h2>List of accounts</h2>
+            {% entityview logical_name:'account', name:'Active Accounts', page_size:50 %}
+            <p>We have {{ entityview.total_records }} accounts.</p>
+            <ul>
+            {% for account in entityview.records -%}
+            <li>{{ account.name }}
+                {% if account.telephone1 %}
+                (<a href="tel:{{ account.telephone1 }}">{{ account.telephone1 }}</a>)
+                {% endif %}
+            </li>
+            {% endfor %}
+            {% endentityview %}
+        {% else %}
+            {% include 'entity_list' key: 'Case List' %}
+    {% endif %}
+{% endblock %}

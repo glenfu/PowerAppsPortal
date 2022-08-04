@@ -148,6 +148,17 @@
   adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
 - adx_disablepagevalidation: false
   adx_displayimageonly: false
+  adx_displayorder: 15
+  adx_displaypagechildlinks: false
+  adx_name: DynamicContent
+  adx_openinnewwindow: false
+  adx_pageid: 6dcfe3fe-9d13-ed11-b83e-000d3a819aba
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: c6c6d3e5-1c4d-4ee2-b184-7695dfc21a05
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
   adx_displayorder: 10
   adx_displaypagechildlinks: false
   adx_name: Load Links

@@ -463,7 +463,185 @@ adx_settings: >-
 
     ],
 
-    "ExtendedItemActions": [],
+    "ExtendedItemActions": [
+
+      {
+
+        "Type": "ReopenCaseAction",
+
+        "SuccessMessage": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": "The case has been reopened."
+
+          }
+
+        ],
+
+        "OnComplete": 0,
+
+        "RedirectWebpageId": "",
+
+        "RedirectUrl": "",
+
+        "ButtonLabel": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": "<span class=\"glyphicon glyphicon-share-alt\" aria-hidden=\"true\"></span>"
+
+          }
+
+        ],
+
+        "ButtonTooltip": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": "Reopen Case"
+
+          }
+
+        ],
+
+        "ActionIndex": 4,
+
+        "ShowModal": 1,
+
+        "Confirmation": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": "Please confirm if the case should be reopened."
+
+          }
+
+        ],
+
+        "FilterCriteria": ""
+
+      },
+
+      {
+
+        "Type": "ResolveCaseAction",
+
+        "SubjectLabel": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": "Resolve Case"
+
+          }
+
+        ],
+
+        "DescriptionLabel": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": "Resolve Case"
+
+          }
+
+        ],
+
+        "ShowModal": 1,
+
+        "Confirmation": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": ""
+
+          }
+
+        ],
+
+        "SuccessMessage": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": "The case has been resolved."
+
+          }
+
+        ],
+
+        "OnComplete": 0,
+
+        "RedirectWebpageId": "",
+
+        "RedirectUrl": "",
+
+        "ButtonLabel": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": "<span class=\"glyphicon glyphicon-ok\" aria-hidden=\"true\"></span>"
+
+          }
+
+        ],
+
+        "ButtonTooltip": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": "Resolve Case"
+
+          }
+
+        ],
+
+        "ActionIndex": 5,
+
+        "FilterCriteria": ""
+
+      }
+
+    ],
 
     "ColumnOverrides": [],
 

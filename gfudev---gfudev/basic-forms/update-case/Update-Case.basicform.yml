@@ -156,6 +156,194 @@ adx_settings: >-
 
         "FilterCriteria": ""
 
+      },
+
+      {
+
+        "Type": "ResolveCaseAction",
+
+        "ShowModal": 1,
+
+        "Confirmation": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": ""
+
+          }
+
+        ],
+
+        "SubjectLabel": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": "Resolve Case"
+
+          }
+
+        ],
+
+        "DescriptionLabel": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": "Resolve Case"
+
+          }
+
+        ],
+
+        "SuccessMessage": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": "The case has been resolved."
+
+          }
+
+        ],
+
+        "OnComplete": 0,
+
+        "RedirectWebpageId": "",
+
+        "RedirectUrl": "",
+
+        "ButtonLabel": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": "Resolve Case"
+
+          }
+
+        ],
+
+        "ButtonTooltip": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": "Resolve Case"
+
+          }
+
+        ],
+
+        "ButtonCssClass": "",
+
+        "ActionButtonStyle": 0,
+
+        "ActionButtonPlacement": 0,
+
+        "ActionButtonAlignment": 0,
+
+        "FilterCriteria": ""
+
+      },
+
+      {
+
+        "Type": "ReopenCaseAction",
+
+        "SuccessMessage": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": "The case has been reopened."
+
+          }
+
+        ],
+
+        "OnComplete": 0,
+
+        "RedirectWebpageId": "",
+
+        "RedirectUrl": "",
+
+        "ButtonLabel": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": ""
+
+          }
+
+        ],
+
+        "ButtonTooltip": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": ""
+
+          }
+
+        ],
+
+        "ButtonCssClass": "",
+
+        "ActionButtonStyle": 0,
+
+        "ActionButtonPlacement": 0,
+
+        "ActionButtonAlignment": 0,
+
+        "ShowModal": 1,
+
+        "Confirmation": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": "Please confirm if the case should be reopened."
+
+          }
+
+        ],
+
+        "FilterCriteria": ""
+
       }
 
     ],

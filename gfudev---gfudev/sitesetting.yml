@@ -1,5 +1,14 @@
+- adx_name: HTTP/SameSite/Default
+  adx_sitesettingid: 16a82b1e-4e02-ed11-82e6-000d3a819aba
+  adx_value: None
 - adx_name: Webapi/contact/enabled
   adx_sitesettingid: 1e7b49cb-3cab-ec11-9840-00224817a4f6
+  adx_value: true
+- adx_name: Webapi/subject/enabled
+  adx_sitesettingid: 28a7323b-93f7-ec11-82e6-000d3a81912a
+  adx_value: true
+- adx_name: Webapi/incidentresolution/enabled
+  adx_sitesettingid: 2ee47489-64f7-ec11-82e6-000d3a81912a
   adx_value: true
 - adx_name: Webapi/cre1b_link/enabled
   adx_sitesettingid: 3316636c-40ab-ec11-9840-00224817a4f6
@@ -12,7 +21,7 @@
   adx_value: true
 - adx_name: HTTP/X-Frame-Options
   adx_sitesettingid: 757f85a3-7eaa-ec11-9840-00224817a4f6
-  adx_value: SAMEORIGIN
+  adx_value: DENY
 - adx_name: Webapi/cre1b_link/fields
   adx_sitesettingid: 7606be79-40ab-ec11-9840-00224817a4f6
   adx_value: cre1b_name,cre1b_url,cre1b_imageurl,cre1b_Link_Contact_Contact
@@ -32,10 +41,17 @@
 - adx_name: Profile/ForceSignUp
   adx_sitesettingid: 7a7f85a3-7eaa-ec11-9840-00224817a4f6
   adx_value: False
+- adx_description: Show a user's profile image.
+  adx_name: Profile/ShowImage
+  adx_sitesettingid: 7b3051af-5bf7-ec11-82e6-000d3a81912a
+  adx_value: true
 - adx_description: 'The default number of unauthenticated login attempts from an IP address before the IP address is blocked for Authentication/LoginThrottling/IpAddressTimeoutTimeSpan if the attempts occur within Authentication/LoginThrottling/MaxAttemptsTimeLimitTimeSpan amount of time. Default: 1000'
   adx_name: Authentication/LoginThrottling/MaxInvaildAttemptsFromIPAddress
   adx_sitesettingid: 7b7f85a3-7eaa-ec11-9840-00224817a4f6
   adx_value: 1000
+- adx_name: HTTP/Content-Security-Policy
+  adx_sitesettingid: 7c3c0954-4d02-ed11-82e6-000d3a819aba
+  adx_value: frame-ancestors 'self'
 - adx_description: 'Override query for site search, to apply additional weights and filters. @Query is the query text entered by a user. Lucene query syntax reference: http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html'
   adx_name: search/query
   adx_sitesettingid: 7c7f85a3-7eaa-ec11-9840-00224817a4f6
@@ -76,12 +92,24 @@
   adx_name: Authentication/Registration/DenyMinors
   adx_sitesettingid: 867f85a3-7eaa-ec11-9840-00224817a4f6
   adx_value: false
+- adx_name: Webapi/incidentresolution/fields
+  adx_sitesettingid: 8c8e6f8f-64f7-ec11-82e6-000d3a81912a
+  adx_value: '*'
+- adx_name: Webapi/subject/fields
+  adx_sitesettingid: 8e732e35-93f7-ec11-82e6-000d3a81912a
+  adx_value: '*'
+- adx_name: KnowledgeManagement/ContentAccessLevel/Enabled
+  adx_sitesettingid: 9bc5376f-690d-ed11-b83e-000d3a81912a
+  adx_value: true
 - adx_name: Search/EnableDataverseSearch
   adx_sitesettingid: 9bdfb71b-30af-ec11-983f-00224818d851
   adx_value: true
 - adx_name: Webapi/account/enabled
   adx_sitesettingid: a6d76a13-28ab-ec11-9840-00224817a4f6
   adx_value: true
+- adx_name: Webapi/incident/fields
+  adx_sitesettingid: af8d76d7-61f7-ec11-82e6-000d3a81912a
+  adx_value: '*'
 - adx_name: WebAPI/enableReadOperationPreview
   adx_sitesettingid: b0c848f9-27ab-ec11-9840-00224817a4f6
   adx_value: true
@@ -125,6 +153,9 @@
 - adx_name: OnlineDomains
   adx_sitesettingid: c351e1a3-7eaa-ec11-9840-00224817a7df
   adx_value: sharepoint.com;microsoftonline.com
+- adx_name: Webapi/incident/enabled
+  adx_sitesettingid: c365bfd0-61f7-ec11-82e6-000d3a81912a
+  adx_value: true
 - adx_name: Authentication/OpenAuth/Facebook/AppSecret
   adx_sitesettingid: c551e1a3-7eaa-ec11-9840-00224817a7df
   importsequencenumber: 5
@@ -140,6 +171,9 @@
   adx_name: MultiLanguage/MaximumDepthToClone
   adx_sitesettingid: c851e1a3-7eaa-ec11-9840-00224817a7df
   adx_value: 3
+- adx_name: Control/EnableFilePreview
+  adx_sitesettingid: c89a990f-62f7-ec11-82e6-000d3a81912a
+  adx_value: true
 - adx_description: >-
     A collection of search logical name filter options. Defining a value here will add dropdown filter options to site-wide search.
 
@@ -198,3 +232,7 @@
 - adx_name: ThemeFeature
   adx_sitesettingid: e0974228-91eb-eb11-94f0-000d3a999477
   adx_value: '{"status":"enable","selectedThemeId":"f21551a1-7244-432f-ad88-220609e070d3","siteSettingId":"e0974228-91eb-eb11-94f0-000d3a999477"}'
+- adx_description: Setting the value to true will enable Image control on form. Liquid code and Web API will continue to work independent of this setting
+  adx_name: Control/EnableImagePreview
+  adx_sitesettingid: f206072d-55f7-ec11-82e6-000d3a81912a
+  adx_value: true
