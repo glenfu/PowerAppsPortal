@@ -1,7 +1,7 @@
 {% assign product = 'Power Apps portals' %}
 <p>
   {% if user %}
-  Hello, {{ user.firstname | upcase | escape }}, from <strong>{{ product | escape }}</strong>.
+  Hello, {{ user.fullname | upcase | escape }}, from <strong>{{ product | escape }}</strong>.
   {% else %}
   Greetings, <em>visitor</em>, from <strong>{{ product | escape }}</strong>!
   {% endif %}
