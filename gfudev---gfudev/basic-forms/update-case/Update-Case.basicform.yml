@@ -1,12 +1,14 @@
 adx_appendquerystring: false
 adx_associatecurrentportaluser: false
-adx_attachfile: false
-adx_attachfileallowmultiple: false
+adx_attachfile: true
+adx_attachfileallowmultiple: true
 adx_attachfilerequired: false
 adx_attachfilerestrictaccept: false
+adx_attachfilesaveoption: 756150000
+adx_attachfilestoragelocation: 756150000
 adx_autogeneratesteps: false
 adx_captcharequired: false
-adx_entityformid: a24626cf-76e5-ec11-bb3c-002248174cae
+adx_entityformid: 710e4403-3871-ed11-81ac-000d3a856e95
 adx_entityname: incident
 adx_entitypermissionsenabled: true
 adx_entitysourcetype: 756150001
@@ -50,6 +52,16 @@ adx_settings: >-
 
             "Value": ""
 
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
+
+            "Value": ""
+
           }
 
         ],
@@ -61,6 +73,16 @@ adx_settings: >-
             "Type": "LanguageResources",
 
             "LCID": 1033,
+
+            "Value": ""
+
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
 
             "Value": ""
 
@@ -78,6 +100,16 @@ adx_settings: >-
 
             "Value": ""
 
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
+
+            "Value": ""
+
           }
 
         ],
@@ -89,6 +121,16 @@ adx_settings: >-
             "Type": "LanguageResources",
 
             "LCID": 1033,
+
+            "Value": "The workflow has been initiated."
+
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
 
             "Value": "The workflow has been initiated."
 
@@ -112,6 +154,16 @@ adx_settings: >-
 
             "Value": "<span class=\"glyphicon glyphicon-upload\" aria-hidden=\"true\"></span>"
 
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
+
+            "Value": ""
+
           }
 
         ],
@@ -123,6 +175,16 @@ adx_settings: >-
             "Type": "LanguageResources",
 
             "LCID": 1033,
+
+            "Value": ""
+
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
 
             "Value": ""
 
@@ -138,7 +200,7 @@ adx_settings: >-
 
         "ActionButtonAlignment": 0,
 
-        "ShowModal": 0,
+        "ShowModal": 1,
 
         "Confirmation": [
 
@@ -147,6 +209,16 @@ adx_settings: >-
             "Type": "LanguageResources",
 
             "LCID": 1033,
+
+            "Value": "Do you want to escalate the case?"
+
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
 
             "Value": ""
 
@@ -174,6 +246,16 @@ adx_settings: >-
 
             "Value": ""
 
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
+
+            "Value": ""
+
           }
 
         ],
@@ -186,7 +268,17 @@ adx_settings: >-
 
             "LCID": 1033,
 
-            "Value": "Resolve Case"
+            "Value": ""
+
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
+
+            "Value": ""
 
           }
 
@@ -200,7 +292,17 @@ adx_settings: >-
 
             "LCID": 1033,
 
-            "Value": "Resolve Case"
+            "Value": ""
+
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
+
+            "Value": ""
 
           }
 
@@ -213,6 +315,16 @@ adx_settings: >-
             "Type": "LanguageResources",
 
             "LCID": 1033,
+
+            "Value": "The case has been resolved."
+
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
 
             "Value": "The case has been resolved."
 
@@ -234,7 +346,17 @@ adx_settings: >-
 
             "LCID": 1033,
 
-            "Value": "Resolve Case"
+            "Value": ""
+
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
+
+            "Value": ""
 
           }
 
@@ -248,7 +370,17 @@ adx_settings: >-
 
             "LCID": 1033,
 
-            "Value": "Resolve Case"
+            "Value": ""
+
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
+
+            "Value": ""
 
           }
 
@@ -280,6 +412,16 @@ adx_settings: >-
 
             "Value": "The case has been reopened."
 
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
+
+            "Value": "The case has been reopened."
+
           }
 
         ],
@@ -298,6 +440,16 @@ adx_settings: >-
 
             "LCID": 1033,
 
+            "Value": "<span class=\"glyphicon glyphicon-share-alt\" aria-hidden=\"true\"></span>"
+
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
+
             "Value": ""
 
           }
@@ -311,6 +463,16 @@ adx_settings: >-
             "Type": "LanguageResources",
 
             "LCID": 1033,
+
+            "Value": ""
+
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
 
             "Value": ""
 
@@ -338,6 +500,16 @@ adx_settings: >-
 
             "Value": "Please confirm if the case should be reopened."
 
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
+
+            "Value": ""
+
           }
 
         ],
@@ -362,6 +534,16 @@ adx_settings: >-
 
           "Value": ""
 
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
+
+          "Value": ""
+
         }
 
       ],
@@ -373,6 +555,16 @@ adx_settings: >-
           "Type": "LanguageResources",
 
           "LCID": 1033,
+
+          "Value": ""
+
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
 
           "Value": ""
 
@@ -390,6 +582,16 @@ adx_settings: >-
 
           "Value": ""
 
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
+
+          "Value": ""
+
         }
 
       ],
@@ -401,6 +603,16 @@ adx_settings: >-
           "Type": "LanguageResources",
 
           "LCID": 1033,
+
+          "Value": ""
+
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
 
           "Value": ""
 
@@ -434,6 +646,16 @@ adx_settings: >-
 
           "Value": ""
 
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
+
+          "Value": ""
+
         }
 
       ],
@@ -445,6 +667,16 @@ adx_settings: >-
           "Type": "LanguageResources",
 
           "LCID": 1033,
+
+          "Value": ""
+
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
 
           "Value": ""
 
@@ -462,6 +694,16 @@ adx_settings: >-
 
           "Value": ""
 
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
+
+          "Value": ""
+
         }
 
       ],
@@ -473,6 +715,16 @@ adx_settings: >-
           "Type": "LanguageResources",
 
           "LCID": 1033,
+
+          "Value": ""
+
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
 
           "Value": ""
 
@@ -502,6 +754,16 @@ adx_settings: >-
 
         "Value": ""
 
+      },
+
+      {
+
+        "Type": "LanguageResources",
+
+        "LCID": 3082,
+
+        "Value": ""
+
       }
 
     ],
@@ -519,6 +781,16 @@ adx_settings: >-
         "Type": "LanguageResources",
 
         "LCID": 1033,
+
+        "Value": ""
+
+      },
+
+      {
+
+        "Type": "LanguageResources",
+
+        "LCID": 3082,
 
         "Value": ""
 
@@ -540,6 +812,16 @@ adx_settings: >-
 
           "Value": ""
 
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
+
+          "Value": ""
+
         }
 
       ],
@@ -551,6 +833,16 @@ adx_settings: >-
           "Type": "LanguageResources",
 
           "LCID": 1033,
+
+          "Value": ""
+
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
 
           "Value": ""
 
@@ -568,6 +860,16 @@ adx_settings: >-
 
           "Value": ""
 
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
+
+          "Value": ""
+
         }
 
       ],
@@ -579,6 +881,16 @@ adx_settings: >-
           "Type": "LanguageResources",
 
           "LCID": 1033,
+
+          "Value": ""
+
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
 
           "Value": ""
 
@@ -612,6 +924,16 @@ adx_settings: >-
 
           "Value": ""
 
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
+
+          "Value": ""
+
         }
 
       ],
@@ -623,6 +945,16 @@ adx_settings: >-
           "Type": "LanguageResources",
 
           "LCID": 1033,
+
+          "Value": ""
+
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
 
           "Value": ""
 
@@ -640,6 +972,16 @@ adx_settings: >-
 
           "Value": ""
 
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
+
+          "Value": ""
+
         }
 
       ],
@@ -651,6 +993,16 @@ adx_settings: >-
           "Type": "LanguageResources",
 
           "LCID": 1033,
+
+          "Value": ""
+
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
 
           "Value": ""
 
@@ -684,6 +1036,16 @@ adx_settings: >-
 
           "Value": ""
 
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
+
+          "Value": ""
+
         }
 
       ],
@@ -695,6 +1057,16 @@ adx_settings: >-
           "Type": "LanguageResources",
 
           "LCID": 1033,
+
+          "Value": ""
+
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
 
           "Value": ""
 
@@ -712,6 +1084,16 @@ adx_settings: >-
 
           "Value": ""
 
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
+
+          "Value": ""
+
         }
 
       ],
@@ -723,6 +1105,16 @@ adx_settings: >-
           "Type": "LanguageResources",
 
           "LCID": 1033,
+
+          "Value": ""
+
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
 
           "Value": ""
 
@@ -756,6 +1148,16 @@ adx_settings: >-
 
           "Value": ""
 
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
+
+          "Value": ""
+
         }
 
       ],
@@ -767,6 +1169,16 @@ adx_settings: >-
           "Type": "LanguageResources",
 
           "LCID": 1033,
+
+          "Value": ""
+
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
 
           "Value": ""
 
@@ -784,6 +1196,16 @@ adx_settings: >-
 
           "Value": ""
 
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
+
+          "Value": ""
+
         }
 
       ],
@@ -795,6 +1217,16 @@ adx_settings: >-
           "Type": "LanguageResources",
 
           "LCID": 1033,
+
+          "Value": ""
+
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
 
           "Value": ""
 
@@ -828,6 +1260,16 @@ adx_settings: >-
 
           "Value": ""
 
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
+
+          "Value": ""
+
         }
 
       ],
@@ -839,6 +1281,16 @@ adx_settings: >-
           "Type": "LanguageResources",
 
           "LCID": 1033,
+
+          "Value": ""
+
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
 
           "Value": ""
 
@@ -860,6 +1312,16 @@ adx_settings: >-
 
           "Value": ""
 
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
+
+          "Value": ""
+
         }
 
       ],
@@ -871,6 +1333,16 @@ adx_settings: >-
           "Type": "LanguageResources",
 
           "LCID": 1033,
+
+          "Value": ""
+
+        },
+
+        {
+
+          "Type": "LanguageResources",
+
+          "LCID": 3082,
 
           "Value": ""
 

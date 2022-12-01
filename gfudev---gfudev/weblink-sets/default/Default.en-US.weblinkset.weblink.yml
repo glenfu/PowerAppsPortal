@@ -11,6 +11,19 @@
   adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
 - adx_disablepagevalidation: false
   adx_displayimageonly: false
+  adx_displayorder: 16
+  adx_displaypagechildlinks: false
+  adx_name: partners_SearchResultPage
+  adx_openinnewwindow: false
+  adx_pageid: d6f9abac-2b8b-a628-5072-a5cb0bed4bc7
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: 190837e4-8d19-a95d-32f1-65a2574dd745
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+  statecode: 1
+  statuscode: 2
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
   adx_displayorder: 1
   adx_displaypagechildlinks: false
   adx_name: Home
@@ -87,6 +100,17 @@
   adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
   adx_robotsfollowlink: true
   adx_weblinkid: 6b35b99a-6133-433e-8c0e-731232947114
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
+  adx_displayorder: 16
+  adx_displaypagechildlinks: false
+  adx_name: Partner
+  adx_openinnewwindow: false
+  adx_pageid: 2064ae05-724f-d5ba-5c96-9dd37f7be005
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: 6bc8bb2e-dfd9-3cd5-2118-42065243b35b
   adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
 - adx_disablepagevalidation: false
   adx_displayimageonly: false

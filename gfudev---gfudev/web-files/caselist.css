@@ -32,3 +32,6 @@
     color: #008C95;
     background: transparent;
 }
+span.btn-file {
+    display: block;
+}

@@ -13,6 +13,9 @@
 - adx_name: Page Not Found
   adx_pageid: e6fbdba9-7eaa-ec11-9840-00224817a7df
   adx_sitemarkerid: 737f85a3-7eaa-ec11-9840-00224817a4f6
+- adx_name: con_partner_SearchResultPage
+  adx_pageid: 2064ae05-724f-d5ba-5c96-9dd37f7be005
+  adx_sitemarkerid: 92cd9130-715e-ed11-9562-000d3a856f51
 - adx_name: Default Offline Page
   adx_pageid: 941e1f3e-18ab-ec11-9840-00224817a4f6
   adx_sitemarkerid: b2cf0545-18ab-ec11-9840-00224817a4f6

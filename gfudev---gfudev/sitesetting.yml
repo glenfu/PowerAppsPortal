@@ -7,6 +7,9 @@
 - adx_name: Webapi/subject/enabled
   adx_sitesettingid: 28a7323b-93f7-ec11-82e6-000d3a81912a
   adx_value: true
+- adx_name: Connector/ImplicitGrantFlowEnabled
+  adx_sitesettingid: 28d5b604-423e-ed11-bba2-000d3a8564cc
+  adx_value: true
 - adx_name: Webapi/incidentresolution/enabled
   adx_sitesettingid: 2ee47489-64f7-ec11-82e6-000d3a81912a
   adx_value: true
@@ -104,6 +107,13 @@
 - adx_name: Search/EnableDataverseSearch
   adx_sitesettingid: 9bdfb71b-30af-ec11-983f-00224818d851
   adx_value: true
+- adx_description: >-
+    775B3290D62652EBAA3D2001F72908E5AD010EBB
+
+    395F914A27B704C83B638861E0A24EEFA24D427E
+  adx_name: CustomCertificates/ImplicitGrantflow
+  adx_sitesettingid: a6924b63-493e-ed11-bba2-000d3a8564cc
+  adx_value: 1B42539242AE836A3EA83C080F64FF78E9B0B0DF
 - adx_name: Webapi/account/enabled
   adx_sitesettingid: a6d76a13-28ab-ec11-9840-00224817a4f6
   adx_value: true
@@ -143,9 +153,6 @@
 - adx_name: Authentication/Registration/LocalLoginEnabled
   adx_sitesettingid: bf51e1a3-7eaa-ec11-9840-00224817a7df
   adx_value: true
-- adx_name: Authentication/OpenAuth/Microsoft/ClientId
-  adx_sitesettingid: c151e1a3-7eaa-ec11-9840-00224817a7df
-  importsequencenumber: 5
 - adx_description: Determines if faceted search is used for this portal.
   adx_name: Search/FacetedView
   adx_sitesettingid: c251e1a3-7eaa-ec11-9840-00224817a7df
@@ -181,10 +188,7 @@
     This value should be in the form of name/value pairs, with name and value separated by a colon, and pairs separated by a semicolon. For example: "Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Blogs:adx_blog,adx_blogpost,adx_blogpostcomment".
   adx_name: search/filters
   adx_sitesettingid: ca51e1a3-7eaa-ec11-9840-00224817a7df
-  adx_value: KnowledgeArticles:knowledgearticle
-- adx_name: Authentication/OpenAuth/Microsoft/ClientSecret
-  adx_sitesettingid: cb51e1a3-7eaa-ec11-9840-00224817a7df
-  importsequencenumber: 5
+  adx_value: KnowledgeArticles:knowledgearticle;Partners:con_partner
 - adx_description: Enabling this setting will show all customer activity on the portal timeline.
   adx_name: CustomerSupport/DisplayAllUserActivitiesOnTimeline
   adx_sitesettingid: cc51e1a3-7eaa-ec11-9840-00224817a7df
@@ -229,6 +233,16 @@
   adx_sitesettingid: db51e1a3-7eaa-ec11-9840-00224817a7df
   adx_value: true
   importsequencenumber: 3
+- adx_name: ImplicitGrantFlow/cf4d8587-7429-4e7a-acea-07344bd2da34/RedirectUri
+  adx_sitesettingid: dfa2d392-353e-ed11-bba2-000d3a8564cc
+  adx_value: https://gfudev.powerappsportals.com
+- adx_description: >-
+    cf4d8587-7429-4e7a-acea-07344bd2da34
+
+    9cf73523-206c-452c-b41e-bd341468a5fd
+  adx_name: ImplicitGrantFlow/RegisteredClientId
+  adx_sitesettingid: e0101f56-353e-ed11-bba2-000d3a8564cc
+  adx_value: cf4d8587-7429-4e7a-acea-07344bd2da34
 - adx_name: ThemeFeature
   adx_sitesettingid: e0974228-91eb-eb11-94f0-000d3a999477
   adx_value: '{"status":"enable","selectedThemeId":"f21551a1-7244-432f-ad88-220609e070d3","siteSettingId":"e0974228-91eb-eb11-94f0-000d3a999477"}'
