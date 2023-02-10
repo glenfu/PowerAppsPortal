@@ -26,8 +26,7 @@ jobs:
       - name: Install .NET Core
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: "6.0"
-          include-prerelease: True
+          dotnet-version: "5.0"
       - name: upload-paportal action
         uses: microsoft/powerplatform-actions/upload-paportal@0.4.3
         with:
