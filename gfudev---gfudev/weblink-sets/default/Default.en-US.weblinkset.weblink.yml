@@ -11,6 +11,17 @@
   adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
 - adx_disablepagevalidation: false
   adx_displayimageonly: false
+  adx_displayorder: 18
+  adx_displaypagechildlinks: false
+  adx_name: Cases
+  adx_openinnewwindow: false
+  adx_pageid: 3cd0263a-099e-ed11-aad1-000d3a856f48
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: 064e3ad1-1f35-4732-b56f-14664e0b3dd3
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
   adx_displayorder: 16
   adx_displaypagechildlinks: false
   adx_name: partners_SearchResultPage
@@ -81,6 +92,17 @@
   adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
 - adx_disablepagevalidation: false
   adx_displayimageonly: false
+  adx_displayorder: 21
+  adx_displaypagechildlinks: false
+  adx_name: Guided Tour
+  adx_openinnewwindow: false
+  adx_pageid: f74891a1-cb7c-3f9b-5091-9aa999100612
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: 602a82db-083a-1a35-d9b2-cfa0ae2c589b
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
   adx_displayorder: 6
   adx_displaypagechildlinks: false
   adx_name: Custom Profile
@@ -112,6 +134,19 @@
   adx_robotsfollowlink: true
   adx_weblinkid: 6bc8bb2e-dfd9-3cd5-2118-42065243b35b
   adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
+  adx_displayorder: 18
+  adx_displaypagechildlinks: false
+  adx_name: Case-deleted
+  adx_openinnewwindow: false
+  adx_pageid: 40944cd5-489d-ed11-aad1-000d3a856f48
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: 73e36f07-caa5-44f1-bd9c-364ecf9bf0db
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+  statecode: 1
+  statuscode: 2
 - adx_disablepagevalidation: false
   adx_displayimageonly: false
   adx_displayorder: 13
@@ -155,6 +190,30 @@
   adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
   adx_robotsfollowlink: true
   adx_weblinkid: 905ef1c1-75fb-4e69-aa97-9dab67f9b18e
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+  statecode: 1
+  statuscode: 2
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
+  adx_displayorder: 17
+  adx_displaypagechildlinks: false
+  adx_name: facetedsearch
+  adx_openinnewwindow: false
+  adx_pageid: fe6d8e40-3d96-ed11-aad1-000d3a856e95
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: 942e4cee-42f6-4094-8812-731a7e5528a7
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
+  adx_displayorder: 19
+  adx_displaypagechildlinks: false
+  adx_name: Guided Tour-deleted
+  adx_openinnewwindow: false
+  adx_pageid: 986e87d4-b7b8-b062-c626-b7b3d174d18b
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: 946d8551-b11b-c6d4-22a3-42a072df65fb
   adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
   statecode: 1
   statuscode: 2

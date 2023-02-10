@@ -12,5 +12,17 @@
   adx_webroleid: 8a74ada9-7eaa-ec11-9840-00224817a4f6
 - adx_anonymoususersrole: false
   adx_authenticatedusersrole: false
+  adx_name: Global
+  adx_webroleid: bbc28fc0-fba8-ed11-aad1-000d3a8564cc
+- adx_anonymoususersrole: false
+  adx_authenticatedusersrole: false
   adx_name: testrole
   adx_webroleid: ce8b9ba9-9d13-ed11-b83e-000d3a819aba
+- adx_anonymoususersrole: false
+  adx_authenticatedusersrole: false
+  adx_name: India
+  adx_webroleid: e4f7f377-fba8-ed11-aad1-000d3a8564cc
+- adx_anonymoususersrole: false
+  adx_authenticatedusersrole: false
+  adx_name: US
+  adx_webroleid: ec20d371-fba8-ed11-aad1-000d3a8564cc

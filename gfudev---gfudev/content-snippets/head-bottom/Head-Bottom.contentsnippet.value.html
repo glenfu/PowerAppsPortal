@@ -1,0 +1,6 @@
+{% if user and user.parentcustomerid %}
+    <input type="hidden" id="case-user-contact" value="{{user.id}}">
+    <input type="hidden" id="case-user-contact-name" value="{{user.fullname|escape}}">
+    <input type="hidden" id="case-user-account" value="{{user.parentcustomerid.id}}">
+    <input type="hidden" id="case-user-account-name" value="{{user.parentcustomerid.name|escape}}">
+{% endif %}

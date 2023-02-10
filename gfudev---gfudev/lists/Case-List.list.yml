@@ -153,21 +153,7 @@ adx_settings: >-
 
         "Type": "CrmEntityFormView-DetailsAction",
 
-        "RecordIdQueryStringParameterName": "id",
-
-        "TargetType": 0,
-
-        "OnComplete": 0,
-
-        "RedirectWebpageId": "",
-
-        "RedirectUrl": "",
-
-        "EntityFormId": "710e4403-3871-ed11-81ac-000d3a856e95",
-
-        "ShowModal": 0,
-
-        "Confirmation": [
+        "SuccessMessage": [
 
           {
 
@@ -191,7 +177,21 @@ adx_settings: >-
 
         ],
 
-        "SuccessMessage": [
+        "RecordIdQueryStringParameterName": "id",
+
+        "TargetType": 0,
+
+        "OnComplete": 0,
+
+        "RedirectWebpageId": "",
+
+        "RedirectUrl": "",
+
+        "EntityFormId": "6d6a31d5-f19d-ed11-aad1-000d3a856f48",
+
+        "ShowModal": 0,
+
+        "Confirmation": [
 
           {
 
@@ -393,8 +393,6 @@ adx_settings: >-
 
         "Type": "CrmEntityFormView-DeleteAction",
 
-        "ShowModal": 1,
-
         "SuccessMessage": [
 
           {
@@ -424,6 +422,32 @@ adx_settings: >-
         "RedirectWebpageId": "",
 
         "RedirectUrl": "",
+
+        "ShowModal": 1,
+
+        "Confirmation": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": ""
+
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
+
+            "Value": ""
+
+          }
+
+        ],
 
         "ButtonLabel": [
 
@@ -474,218 +498,6 @@ adx_settings: >-
         ],
 
         "ActionIndex": 2,
-
-        "Confirmation": [
-
-          {
-
-            "Type": "LanguageResources",
-
-            "LCID": 1033,
-
-            "Value": ""
-
-          },
-
-          {
-
-            "Type": "LanguageResources",
-
-            "LCID": 3082,
-
-            "Value": ""
-
-          }
-
-        ],
-
-        "FilterCriteria": ""
-
-      },
-
-      {
-
-        "Type": "CrmEntityFormView-WorkflowAction",
-
-        "WorkflowId": "d38afe28-47ed-ec11-bb3c-002248174cae",
-
-        "WorkflowDialogTitle": [
-
-          {
-
-            "Type": "LanguageResources",
-
-            "LCID": 1033,
-
-            "Value": ""
-
-          },
-
-          {
-
-            "Type": "LanguageResources",
-
-            "LCID": 3082,
-
-            "Value": ""
-
-          }
-
-        ],
-
-        "WorkflowDialogPrimaryButtonText": [
-
-          {
-
-            "Type": "LanguageResources",
-
-            "LCID": 1033,
-
-            "Value": ""
-
-          },
-
-          {
-
-            "Type": "LanguageResources",
-
-            "LCID": 3082,
-
-            "Value": ""
-
-          }
-
-        ],
-
-        "WorkflowDialogCloseButtonText": [
-
-          {
-
-            "Type": "LanguageResources",
-
-            "LCID": 1033,
-
-            "Value": ""
-
-          },
-
-          {
-
-            "Type": "LanguageResources",
-
-            "LCID": 3082,
-
-            "Value": ""
-
-          }
-
-        ],
-
-        "SuccessMessage": [
-
-          {
-
-            "Type": "LanguageResources",
-
-            "LCID": 1033,
-
-            "Value": "The workflow has been initiated."
-
-          },
-
-          {
-
-            "Type": "LanguageResources",
-
-            "LCID": 3082,
-
-            "Value": "The workflow has been initiated."
-
-          }
-
-        ],
-
-        "OnComplete": 0,
-
-        "RedirectWebpageId": "",
-
-        "RedirectUrl": "",
-
-        "ButtonLabel": [
-
-          {
-
-            "Type": "LanguageResources",
-
-            "LCID": 1033,
-
-            "Value": "<span class=\"glyphicon glyphicon-upload\" aria-hidden=\"true\"></span>"
-
-          },
-
-          {
-
-            "Type": "LanguageResources",
-
-            "LCID": 3082,
-
-            "Value": ""
-
-          }
-
-        ],
-
-        "ButtonTooltip": [
-
-          {
-
-            "Type": "LanguageResources",
-
-            "LCID": 1033,
-
-            "Value": ""
-
-          },
-
-          {
-
-            "Type": "LanguageResources",
-
-            "LCID": 3082,
-
-            "Value": ""
-
-          }
-
-        ],
-
-        "ActionIndex": 5,
-
-        "ShowModal": 1,
-
-        "Confirmation": [
-
-          {
-
-            "Type": "LanguageResources",
-
-            "LCID": 1033,
-
-            "Value": "Do you want to escalate the case?"
-
-          },
-
-          {
-
-            "Type": "LanguageResources",
-
-            "LCID": 3082,
-
-            "Value": ""
-
-          }
-
-        ],
 
         "FilterCriteria": ""
 
@@ -2542,13 +2354,45 @@ adx_settings: >-
     }
 
   }
-adx_view: 00000000-0000-0000-00aa-000010001030,00000000-0000-0000-00aa-000010001032,00000000-0000-0000-00aa-000010001034
+adx_view: 00000000-0000-0000-00aa-000010001032,00000000-0000-0000-00aa-000010001030,00000000-0000-0000-00aa-000010001028,00000000-0000-0000-00aa-000010001034
 adx_views: >-
   {
 
     "Type": "ViewMetadata",
 
     "Views": [
+
+      {
+
+        "Type": "View",
+
+        "ViewId": "00000000-0000-0000-00aa-000010001032",
+
+        "DisplayName": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": ""
+
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
+
+            "Value": ""
+
+          }
+
+        ]
+
+      },
 
       {
 
@@ -2586,7 +2430,7 @@ adx_views: >-
 
         "Type": "View",
 
-        "ViewId": "00000000-0000-0000-00aa-000010001032",
+        "ViewId": "00000000-0000-0000-00aa-000010001028",
 
         "DisplayName": [
 

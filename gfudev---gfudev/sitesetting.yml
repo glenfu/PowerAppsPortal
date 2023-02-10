@@ -24,7 +24,7 @@
   adx_value: true
 - adx_name: HTTP/X-Frame-Options
   adx_sitesettingid: 757f85a3-7eaa-ec11-9840-00224817a4f6
-  adx_value: DENY
+  adx_value: SAMEORIGIN
 - adx_name: Webapi/cre1b_link/fields
   adx_sitesettingid: 7606be79-40ab-ec11-9840-00224817a4f6
   adx_value: cre1b_name,cre1b_url,cre1b_imageurl,cre1b_Link_Contact_Contact
@@ -52,9 +52,9 @@
   adx_name: Authentication/LoginThrottling/MaxInvaildAttemptsFromIPAddress
   adx_sitesettingid: 7b7f85a3-7eaa-ec11-9840-00224817a4f6
   adx_value: 1000
-- adx_name: HTTP/Content-Security-Policy
+- adx_description: frame-ancestors 'self'
+  adx_name: HTTP/Content-Security-Policy
   adx_sitesettingid: 7c3c0954-4d02-ed11-82e6-000d3a819aba
-  adx_value: frame-ancestors 'self'
 - adx_description: 'Override query for site search, to apply additional weights and filters. @Query is the query text entered by a user. Lucene query syntax reference: http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html'
   adx_name: search/query
   adx_sitesettingid: 7c7f85a3-7eaa-ec11-9840-00224817a4f6
@@ -78,11 +78,11 @@
 - adx_description: A true or false value. If set to true, the portal will display the terms and conditions of the site. Users must agree to the terms and conditions before they are considered authenticated and can use the site.
   adx_name: Authentication/Registration/TermsAgreementEnabled
   adx_sitesettingid: 827f85a3-7eaa-ec11-9840-00224817a4f6
-  adx_value: false
+  adx_value: true
 - adx_description: Setting controls whether attachments will be displayed on Knowledge articles
   adx_name: KnowledgeManagement/DisplayNotes
   adx_sitesettingid: 837f85a3-7eaa-ec11-9840-00224817a4f6
-  adx_value: false
+  adx_value: True
 - adx_description: Used to group a set of entities under an entry in the record type facet view.
   adx_name: Search/RecordTypeFacetsEntities
   adx_sitesettingid: 847f85a3-7eaa-ec11-9840-00224817a4f6
@@ -146,6 +146,7 @@
 - adx_description: A date/time value in GMT format to represent the effective date of the current published terms and conditions. If the terms agreement is enabled, portal users that have not accepted the terms after this date will be asked to accept them the next time they sign in. If the date is not provided, and the terms agreement is enabled, the terms will be presented every time portal users sign in.
   adx_name: Authentication/Registration/TermsPublicationDate
   adx_sitesettingid: bd51e1a3-7eaa-ec11-9840-00224817a7df
+  adx_value: Tue, 20 Dec 2022 23:59:00
 - adx_description: Set whether the header web template is output cached.
   adx_name: Header/OutputCache/Enabled
   adx_sitesettingid: be51e1a3-7eaa-ec11-9840-00224817a7df
@@ -188,14 +189,14 @@
     This value should be in the form of name/value pairs, with name and value separated by a colon, and pairs separated by a semicolon. For example: "Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Blogs:adx_blog,adx_blogpost,adx_blogpostcomment".
   adx_name: search/filters
   adx_sitesettingid: ca51e1a3-7eaa-ec11-9840-00224817a7df
-  adx_value: KnowledgeArticles:knowledgearticle;Partners:con_partner
+  adx_value: KnowledgeArticles:knowledgearticle;Partners:con_partner;Cases:incident
 - adx_description: Enabling this setting will show all customer activity on the portal timeline.
   adx_name: CustomerSupport/DisplayAllUserActivitiesOnTimeline
   adx_sitesettingid: cc51e1a3-7eaa-ec11-9840-00224817a7df
   adx_value: false
 - adx_name: Search/IndexNotesAttachments
   adx_sitesettingid: cd51e1a3-7eaa-ec11-9840-00224817a7df
-  adx_value: false
+  adx_value: True
 - adx_name: Authentication/Registration/EmailConfirmationEnabled
   adx_sitesettingid: ce51e1a3-7eaa-ec11-9840-00224817a7df
   adx_value: true
