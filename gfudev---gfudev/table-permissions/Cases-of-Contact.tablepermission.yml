@@ -6,8 +6,8 @@ adx_delete: true
 adx_entitylogicalname: incident
 adx_entityname: Cases of Contact
 adx_entitypermission_webrole:
-- 8974ada9-7eaa-ec11-9840-00224817a4f6
 - 8a74ada9-7eaa-ec11-9840-00224817a4f6
+- 8974ada9-7eaa-ec11-9840-00224817a4f6
 adx_entitypermissionid: d334fa64-f4a8-ed11-aad1-000d3a8564cc
 adx_read: true
 adx_scope: 756150001
