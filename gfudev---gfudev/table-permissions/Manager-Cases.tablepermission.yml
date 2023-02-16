@@ -1,13 +1,14 @@
 adx_append: true
 adx_appendto: true
+adx_contactrelationship: con_incident_Manager_contact
 adx_create: true
 adx_delete: true
-adx_entitylogicalname: contact
-adx_entityname: Contact
+adx_entitylogicalname: incident
+adx_entityname: Manager Cases
 adx_entitypermission_webrole:
 - 8a74ada9-7eaa-ec11-9840-00224817a4f6
 - 8974ada9-7eaa-ec11-9840-00224817a4f6
-adx_entitypermissionid: f0d58079-98aa-ec11-9840-00224817a7df
+adx_entitypermissionid: 9599ca04-44ac-ed11-83fe-000d3a856571
 adx_read: true
-adx_scope: 756150000
+adx_scope: 756150001
 adx_write: true

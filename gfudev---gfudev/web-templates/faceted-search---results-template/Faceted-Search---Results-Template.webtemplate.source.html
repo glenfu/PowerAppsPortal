@@ -4,14 +4,13 @@
   <script id="search-view-results" type="text/x-handlebars-template">
    {{#if items}}
     <div class="page-header">
-      <h2 role="status" aria-live="off">{%endraw%}{{openTag}} stringFormat "{{ resx.Search_Results_Format_String }}" firstResultNumber lastResultNumber itemCount {{closingTag}}{%raw%}
+     <h2 role="alert">{%endraw%}{{openTag}} stringFormat "{{ resx.Search_Results_Format_String }}" firstResultNumber lastResultNumber itemCount {{closingTag}}{%raw%}
       <em class="querytext">{{{query}}}</em>
-     {{#if isResetVisible}}
+      {{#if isResetVisible}}
        <a class="btn btn-default btn-sm facet-clear-all" role="button" title="{%endraw%}{{ snippets['Search/Facet/ClearConstraints'] | default: res['Search_Filter_Clear_All'] }}{%raw%}" tabIndex="0">{%endraw%}{{ snippets['Search/Facet/ClearConstraints'] | default: res['Search_Filter_Clear_All'] }}{%raw%}</a>
       {{/if}}
-      </h2>
+     </h2>
     </div>
-    <div>
    <ul>
     {{#each items}}
      <li>
@@ -37,9 +36,8 @@
      </li>
     {{/each}}
    </ul>
-  </div>
    {{else}}
-   <h2 role="status">{%endraw%}{{ resx.Search_No_Results_Found }}{%raw%}<em class="querytext">{{{query}}}</em>
+    <h2 role="alert">{%endraw%}{{ resx.Search_No_Results_Found }}{%raw%}<em class="querytext">{{{query}}}</em>
      {{#if isResetVisible}}
       <a class="btn btn-default btn-sm facet-clear-all" role="button" title="{%endraw%}{{ snippets['Search/Facet/ClearConstraints'] | default: res['Search_Filter_Clear_All'] }}{%raw%}" tabIndex="0">{%endraw%}{{ snippets['Search/Facet/ClearConstraints'] | default: res['Search_Filter_Clear_All'] }}{%raw%}</a>
      {{/if}}

@@ -101,6 +101,9 @@
 - adx_name: Webapi/subject/fields
   adx_sitesettingid: 8e732e35-93f7-ec11-82e6-000d3a81912a
   adx_value: '*'
+- adx_name: Search/EnableProgressiveSearchCounts
+  adx_sitesettingid: 921bdbd9-10ac-ed11-83fe-000d3a856571
+  adx_value: true
 - adx_name: KnowledgeManagement/ContentAccessLevel/Enabled
   adx_sitesettingid: 9bc5376f-690d-ed11-b83e-000d3a81912a
   adx_value: true
