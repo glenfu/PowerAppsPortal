@@ -1,14 +1,14 @@
 adx_append: true
 adx_appendto: true
-adx_contactrelationship: incident_customer_contacts
+adx_contactrelationship: con_PortalTeam_Contact_Contact
 adx_create: true
 adx_delete: true
-adx_entitylogicalname: incident
-adx_entityname: Cases of Contact
+adx_entitylogicalname: con_portalteam
+adx_entityname: Contact to Portal Team
 adx_entitypermission_webrole:
 - 8974ada9-7eaa-ec11-9840-00224817a4f6
 - 8a74ada9-7eaa-ec11-9840-00224817a4f6
-adx_entitypermissionid: d334fa64-f4a8-ed11-aad1-000d3a8564cc
+adx_entitypermissionid: 1e5b6478-73b9-ed11-b596-6045bd57c6bd
 adx_read: true
 adx_scope: 756150001
 adx_write: true

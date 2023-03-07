@@ -8,8 +8,8 @@
 - adx_name: Restrict Read on Portal Web API
   adx_right: 2
   adx_webpageaccesscontrolrule_webrole:
-  - 8974ada9-7eaa-ec11-9840-00224817a4f6
   - 8a74ada9-7eaa-ec11-9840-00224817a4f6
+  - 8974ada9-7eaa-ec11-9840-00224817a4f6
   adx_webpageaccesscontrolruleid: 724209e6-1fab-ec11-9840-00224817a7df
 - adx_name: Grant Change to Administrators
   adx_right: 1

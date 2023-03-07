@@ -5,9 +5,11 @@ adx_delete: false
 adx_entitylogicalname: knowledgearticle
 adx_entityname: Knowledge Articles Read All
 adx_entitypermission_webrole:
-- 8a74ada9-7eaa-ec11-9840-00224817a4f6
 - 8974ada9-7eaa-ec11-9840-00224817a4f6
+- 8a74ada9-7eaa-ec11-9840-00224817a4f6
 adx_entitypermissionid: b17be865-31af-ec11-983f-00224818d851
+adx_parententitypermission: 5c831210-39b7-ed11-b596-6045bd57c806
+adx_parentrelationship: knowledgearticle_category
 adx_read: true
-adx_scope: 756150000
+adx_scope: 756150003
 adx_write: false
