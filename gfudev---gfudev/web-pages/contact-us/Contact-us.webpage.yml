@@ -3,6 +3,7 @@ adx_enablerating: false
 adx_enabletracking: false
 adx_entityform: 527f85a3-7eaa-ec11-9840-00224817a4f6
 adx_excludefromsearch: false
+adx_feedbackpolicy: 756150000
 adx_hiddenfromsitemap: false
 adx_isroot: true
 adx_name: Contact us

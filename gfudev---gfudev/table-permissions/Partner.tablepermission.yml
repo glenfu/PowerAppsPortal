@@ -6,9 +6,11 @@ adx_entitylogicalname: con_partner
 adx_entityname: Partner
 adx_entitypermission_webrole:
 - 8974ada9-7eaa-ec11-9840-00224817a4f6
-- ce8b9ba9-9d13-ed11-b83e-000d3a819aba
 - 8a74ada9-7eaa-ec11-9840-00224817a4f6
+- ce8b9ba9-9d13-ed11-b83e-000d3a819aba
 adx_entitypermissionid: fae24e99-dcdc-ec11-bb3c-002248174cae
 adx_read: true
 adx_scope: 756150000
 adx_write: true
+statecode: 1
+statuscode: 2

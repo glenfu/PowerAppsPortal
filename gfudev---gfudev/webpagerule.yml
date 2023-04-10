@@ -1,5 +1,6 @@
 - adx_name: Restrict Read on Manage Apps
   adx_right: 2
+  adx_scope: 1
   adx_webpageaccesscontrolrule_webrole:
   - 8974ada9-7eaa-ec11-9840-00224817a4f6
   - 8a74ada9-7eaa-ec11-9840-00224817a4f6
@@ -7,16 +8,19 @@
   adx_webpageid: 0662fbb9-41ab-ec11-9840-00224817a4f6
 - adx_name: Restrict Read on Portal Web API
   adx_right: 2
+  adx_scope: 1
   adx_webpageaccesscontrolrule_webrole:
-  - 8a74ada9-7eaa-ec11-9840-00224817a4f6
   - 8974ada9-7eaa-ec11-9840-00224817a4f6
+  - 8a74ada9-7eaa-ec11-9840-00224817a4f6
   adx_webpageaccesscontrolruleid: 724209e6-1fab-ec11-9840-00224817a7df
 - adx_name: Grant Change to Administrators
   adx_right: 1
+  adx_scope: 1
   adx_webpageaccesscontrolrule_webrole: []
   adx_webpageaccesscontrolruleid: 8674ada9-7eaa-ec11-9840-00224817a4f6
   adx_webpageid: 7d74ada9-7eaa-ec11-9840-00224817a4f6
 - adx_name: Grant Change to Content
   adx_right: 1
+  adx_scope: 1
   adx_webpageaccesscontrolrule_webrole: []
   adx_webpageaccesscontrolruleid: 8774ada9-7eaa-ec11-9840-00224817a4f6

@@ -3,5 +3,6 @@ adx_isdefault: true
 adx_name: Search
 adx_pagetemplateid: 557f85a3-7eaa-ec11-9840-00224817a4f6
 adx_rewriteurl: ~/Pages/Search.aspx
+adx_type: 756150000
 adx_usewebsiteheaderandfooter: true
 adx_webtemplateid: 02fcdba9-7eaa-ec11-9840-00224817a7df

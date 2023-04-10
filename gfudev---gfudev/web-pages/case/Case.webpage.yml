@@ -3,6 +3,7 @@ adx_enablerating: false
 adx_enabletracking: false
 adx_entityform: a3f79f54-b69c-4d3d-ab33-e24a92a52213
 adx_excludefromsearch: false
+adx_feedbackpolicy: 756150000
 adx_hiddenfromsitemap: false
 adx_isroot: true
 adx_name: Case

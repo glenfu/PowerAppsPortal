@@ -3,6 +3,7 @@ adx_enablerating: false
 adx_enabletracking: false
 adx_entityform: 9d3796e6-31af-ec11-983f-00224818d851
 adx_excludefromsearch: false
+adx_feedbackpolicy: 756150000
 adx_hiddenfromsitemap: false
 adx_isroot: false
 adx_name: Knowledge Articles

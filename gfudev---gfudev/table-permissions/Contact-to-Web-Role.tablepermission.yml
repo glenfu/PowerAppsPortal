@@ -1,0 +1,13 @@
+adx_append: false
+adx_appendto: false
+adx_contactrelationship: adx_webrole_contact
+adx_create: false
+adx_delete: false
+adx_entitylogicalname: adx_webrole
+adx_entityname: Contact to Web Role
+adx_entitypermission_webrole:
+- 8a74ada9-7eaa-ec11-9840-00224817a4f6
+adx_entitypermissionid: 354b9b37-4ac2-ed11-83fe-6045bd57c83a
+adx_read: true
+adx_scope: 756150001
+adx_write: false

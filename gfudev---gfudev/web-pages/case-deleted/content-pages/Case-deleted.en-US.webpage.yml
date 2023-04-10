@@ -3,6 +3,7 @@ adx_enablerating: false
 adx_enabletracking: false
 adx_entityform: 710e4403-3871-ed11-81ac-000d3a856e95
 adx_excludefromsearch: false
+adx_feedbackpolicy: 756150000
 adx_hiddenfromsitemap: false
 adx_isroot: false
 adx_name: Case-deleted

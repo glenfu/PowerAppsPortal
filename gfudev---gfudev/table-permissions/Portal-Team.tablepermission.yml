@@ -6,8 +6,8 @@ adx_delete: true
 adx_entitylogicalname: con_portalteam
 adx_entityname: Portal Team
 adx_entitypermission_webrole:
-- 8a74ada9-7eaa-ec11-9840-00224817a4f6
 - 8974ada9-7eaa-ec11-9840-00224817a4f6
+- 8a74ada9-7eaa-ec11-9840-00224817a4f6
 adx_entitypermissionid: 2585d6b6-d8b8-ed11-b596-002248ecfec6
 adx_read: true
 adx_scope: 756150002
