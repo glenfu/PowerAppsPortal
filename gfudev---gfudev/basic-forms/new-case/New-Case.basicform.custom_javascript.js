@@ -14,9 +14,21 @@
           $("#primarycontactid_name").val(contactName);
           $("#primarycontactid_entityname").val("contact");
           $("#primarycontactid").trigger("change");
+          $("#primarycontactid_name").prop("readonly", false);
         }
 
         ConvertSelectToAutocomplete("con_manager");
+        $("#primarycontactid_name").attr("list", "con_manager-data");
+
+        $("#primarycontactid_name").on("change", function () {
+            var selectedContactValue = $("#primarycontactid_name").val(); 
+            console.log("You have selected the contact - " + selectedContactValue);
+            var selectedContact = $("#con_manager-data option[value=\"" + selectedContactValue + "\"]").attr("data-value");
+            console.log("You have selected the contact - " + selectedContact);
+            $("#primarycontactid").val(selectedContact);
+            $("#primarycontactid_entityname").val("contact");
+            $("#primarycontactid").trigger("change");
+        });
   });
 
   function ConvertSelectToAutocomplete(selectName, selectPlaceholder) {
