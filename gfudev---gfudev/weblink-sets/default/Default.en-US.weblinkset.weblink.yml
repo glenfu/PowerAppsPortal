@@ -253,6 +253,17 @@
   adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
 - adx_disablepagevalidation: false
   adx_displayimageonly: false
+  adx_displayorder: 22
+  adx_displaypagechildlinks: false
+  adx_name: Test Page
+  adx_openinnewwindow: false
+  adx_pageid: 3b3521f2-c5a6-b179-6906-b122d7dd7435
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: daced3b1-c546-1d5c-a1cb-fa3d774370d3
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
   adx_displayorder: 2
   adx_displaypagechildlinks: false
   adx_name: Subpage 2

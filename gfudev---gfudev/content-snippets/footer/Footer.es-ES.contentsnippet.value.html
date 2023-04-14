@@ -1,0 +1,4 @@
+{% assign product = 'Power Apps portals' %}
+<p>{% if user %} Hello, {{ user.fullname | upcase | escape }}, from <strong>{{ product | escape }}</strong>. {% else %} Greetings, <em>visitor</em>, from <strong>{{ product | escape }}</strong>! {% endif %}</p>
+<p>The time is {{ 'now' | date: 'g' | escape }}</p>
+<p><span>Copyright © </span>{{ now | date: 'yyyy' |escape }}<span>. All rights reserved.</span></p>

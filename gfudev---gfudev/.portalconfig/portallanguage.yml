@@ -4,3 +4,9 @@
   adx_name: English
   adx_portallanguageid: 13fcdba9-7eaa-ec11-9840-00224817a7df
   adx_systemlanguage: 1033
+- adx_displayname: español
+  adx_languagecode: es-ES
+  adx_lcid: 3082
+  adx_name: Spanish (Traditional Sort) - Spain
+  adx_portallanguageid: 14fcdba9-7eaa-ec11-9840-00224817a7df
+  adx_systemlanguage: 3082

@@ -1647,6 +1647,16 @@ adx_views: >-
 
             "Value": ""
 
+          },
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 3082,
+
+            "Value": ""
+
           }
 
         ]
