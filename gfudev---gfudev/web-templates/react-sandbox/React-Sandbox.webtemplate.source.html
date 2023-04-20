@@ -16,37 +16,8 @@
       {% block main %}
         {% include 'Page Copy' %}
         <div id="root"></div>
-
-        <script type="text/javascript">
-        class Timer extends React.Component {
-            constructor(props) {
-            super(props);
-            this.state = {
-                seconds: 0
-            };
-            }
-            tick() {
-            this.setState(state => ({
-            seconds: state.seconds + 1
-            }));
-            }
-            componentDidMount() {
-            this.interval = setInterval(() => this.tick(), 1000);
-            }
-            componentWillUnmount() {
-            clearInterval(this.interval);
-            }
-            render() {
-            return React.createElement(
-                'div',
-                null,
-                'Seconds: ',
-                this.state.seconds
-            );
-            }
-        }
-        ReactDOM.render(React.createElement(Timer, null), document.getElementById('root'));
-        </script>
+        <script src="main.js"></script>
+        <script src="131.main.js"></script>
       {% endblock %}
     </div>
   </div>
