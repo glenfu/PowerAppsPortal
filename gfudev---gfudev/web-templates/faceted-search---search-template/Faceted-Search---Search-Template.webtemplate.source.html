@@ -44,7 +44,7 @@
     <label for="q" class="sr-only">
       {{ snippets["Header/Search/Label"] | default: resx["Search_DefaultText"] | h }}
     </label>
-    <form method="GET" action="{{ search_page.url | h | params.q | escape | add_query: 'filter', 'emptech_relatedcountry' }}" role="search" class="form-search">
+    <form method="GET" action="{{ search_page.url | h }}" role="search" class="form-search">
   <div class="input-group">
     <input type="text" class="form-control" id="q" name="q"
         placeholder="{{ snippets["Header/Search/Label"] | default: resx["Search_DefaultText"] | h }}"

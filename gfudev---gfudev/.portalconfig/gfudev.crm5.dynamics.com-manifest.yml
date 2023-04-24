@@ -2445,7 +2445,7 @@ adx_webpage:
   IsDeleted: false
 - RecordId: 7e74ada9-7eaa-ec11-9840-00224817a4f6
   DisplayName: Search
-  CheckSum: 3fbfc79bb83418e63ee9b0709041f3ed3cca8a36d4918145c4ed98ae151de19e
+  CheckSum: a0d4622795eb969db317154b17f82f1ffc05a86d3c9136b53aea96f015726238
   IsDeleted: false
 - RecordId: 7f74ada9-7eaa-ec11-9840-00224817a4f6
   DisplayName: Subpage 1
@@ -2766,11 +2766,11 @@ adx_webtemplate:
   IsDeleted: false
 - RecordId: 6862beb3-2f96-ed11-aad1-000d3a856e95
   DisplayName: Faceted Search - Search Template
-  CheckSum: 73b1cd1118645f3a8ca7c5e35ea0010054889626749a6898d3bb68f59d2ac85f
+  CheckSum: 5d9dc5a30ab785446897dce7100375ce325dc9a6eb6f54bc96079f4665e37e6e
   IsDeleted: false
 - RecordId: 8a66c36b-d0d9-ed11-a7c7-6045bd57c81b
   DisplayName: React Sandbox
-  CheckSum: 556a839d101c191d3135735984a028af3e136755edaa31b8660cf7a9ba317b35
+  CheckSum: 61084eba17270191bb83bfa6e2d0737ef03021c0431c4c41e824731a4841b6cf
   IsDeleted: false
 - RecordId: 8b74ada9-7eaa-ec11-9840-00224817a4f6
   DisplayName: Page with Side Navigation (2 columns)
@@ -2910,7 +2910,7 @@ adx_webtemplate:
   IsDeleted: false
 - RecordId: fafbdba9-7eaa-ec11-9840-00224817a7df
   DisplayName: Search
-  CheckSum: 71e757e92f52e968b6307af04e88a16ec22e68930a001c5ce6299d3500419497
+  CheckSum: b97c2531560785cb6fbab432d6ba73a49636c1e5401ac81dc92116c25eaedba5
   IsDeleted: false
 - RecordId: fbfbdba9-7eaa-ec11-9840-00224817a7df
   DisplayName: Ad

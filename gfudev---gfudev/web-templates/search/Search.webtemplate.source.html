@@ -34,6 +34,29 @@
           </ul>
         </li>
       </div>
+      <div class="btn-group btn-select input-group-btn" data-target="#locationfilter-{{ formId }}" data-focus="#{{search_id}}">
+      <li class="dropdown-submenu dropdown">
+        <button id="search-filter-xs" type="button" class="btn btn-default"
+            data-toggle="dropdown"
+            aria-haspopup="true" aria-label="Location Filter" aria-expanded="false">
+          <span class="selected">All</span>
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="listbox" aria-label="Location Filter">
+          <li role="presentation">
+            <a href="#" role="option" data-value=""
+              aria-label="All" aria-selected="false" tabIndex="-1">All</a>
+          </li>
+          <li role="presentation">
+            <a href="#" role="option" data-value="USA"
+              aria-label="USA" aria-selected="false" tabIndex="-1">USA</a>
+          </li>
+          <li role="presentation">
+            <a href="#" role="option" data-value="India"
+              aria-label="India" aria-selected="false" tabIndex="-1">India</a>
+          </li>
+        </ul>
+      </div>
       <label for="filter-{{ formId }}" class="sr-only">{{ searchFilterLabel }}</label>
       <select id="filter-{{ formId }}" name="logicalNames" class="btn-select" aria-hidden="true" data-query="logicalNames">
        <option value="" selected="selected">{{ defaultSearchFilterText }}</option>
@@ -41,8 +64,12 @@
           <option value="{{ search_filter_option.value | h }}">{{ search_filter_option.display_name | h }}</option>
            {% endfor %}
       </select>
+      <select id="locationfilter-{{ formId }}" name="filter" class="btn-select" aria-hidden="true" data-query="filter">
+        <option value="" selected="selected">All</option>
+        <option value="USA">USA</option>
+        <option value="India">India</option>
+      </select>
     {% endif %}
-
     <label for="{{search_id}}" class="sr-only">
       {{ snippets["Header/Search/Label"] | default: resx["Search_DefaultText"] | h }}
     </label>
