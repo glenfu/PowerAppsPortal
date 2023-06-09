@@ -1033,6 +1033,10 @@ adx_pagetemplate:
   DisplayName: Default studio template
   CheckSum: 6139829014d3b1db52ab092ace3f63fea93c4459a8947bda7e6fc4e0d354b7f5
   IsDeleted: false
+- RecordId: 63abe7f7-e104-ee11-8f6e-6045bd57c81b
+  DisplayName: SearchAPI
+  CheckSum: 86ff3b91696b9081d754e675bfc39cb97d9110a8da4f5c79105195b322cd0010
+  IsDeleted: false
 - RecordId: 76636ae3-9d13-ed11-b83e-000d3a819aba
   DisplayName: DynamicContent
   CheckSum: 5816bc9ab56029703eacdb0afe227200dbcd73d0b0d3981c26cdbc5114ccc269
@@ -2483,6 +2487,10 @@ adx_webpage:
   DisplayName: DynamicContent
   CheckSum: 458285b15aee5b8eb63bb35fa4da8d4c43795044886eba1d0e7fbc0779bb7fac
   IsDeleted: false
+- RecordId: 88918adf-e104-ee11-8f6e-6045bd57c81b
+  DisplayName: SearchAPI
+  CheckSum: db5126c1dad352311526d0e00ac6887f3f1d2df0c51cb74100c32197e3908936
+  IsDeleted: false
 - RecordId: 8a87cee5-64e5-4bf7-985d-f7ef7136cc97
   DisplayName: PortalWebAPI
   CheckSum: 3cc8c2914f0658c66b024eb52df45f6126e3f213c6297da0dc5cd7591239773a
@@ -2582,6 +2590,10 @@ adx_webpage:
 - RecordId: e2fbdba9-7eaa-ec11-9840-00224817a7df
   DisplayName: Access Denied
   CheckSum: 9c89d8f6d6093a98817033005e919ed0b3f0003c5b54356edba308369188ea23
+  IsDeleted: false
+- RecordId: e38264d9-e104-ee11-8f6e-6045bd57c81b
+  DisplayName: SearchAPI
+  CheckSum: fdd703a957841cdbed71f33b387c56f66ee3bc3bf59c93fcb4673498e73764cc
   IsDeleted: false
 - RecordId: e6fbdba9-7eaa-ec11-9840-00224817a7df
   DisplayName: Page Not Found
@@ -2903,6 +2915,10 @@ adx_webtemplate:
 - RecordId: f8fbdba9-7eaa-ec11-9840-00224817a7df
   DisplayName: Sitemap
   CheckSum: 110f9887cd03a62d8eafae4120c69762169ee27d64c6e7a05a2881cd89352a69
+  IsDeleted: false
+- RecordId: f98057c7-e104-ee11-8f6e-6045bd57c81b
+  DisplayName: SearchAPI
+  CheckSum: b186834f8ebdbbba23c4cbe8a4eff7cf9340cb546004b1d54f399e95cd76e4a8
   IsDeleted: false
 - RecordId: f9fbdba9-7eaa-ec11-9840-00224817a7df
   DisplayName: Blank Page

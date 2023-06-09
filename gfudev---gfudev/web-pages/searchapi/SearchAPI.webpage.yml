@@ -1,0 +1,13 @@
+adx_enablerating: false
+adx_enabletracking: false
+adx_excludefromsearch: false
+adx_feedbackpolicy: 756150000
+adx_hiddenfromsitemap: false
+adx_isroot: true
+adx_name: SearchAPI
+adx_pagetemplateid: 63abe7f7-e104-ee11-8f6e-6045bd57c81b
+adx_parentpageid: 7d74ada9-7eaa-ec11-9840-00224817a4f6
+adx_partialurl: searchapi
+adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+adx_sharedpageconfiguration: true
+adx_webpageid: e38264d9-e104-ee11-8f6e-6045bd57c81b

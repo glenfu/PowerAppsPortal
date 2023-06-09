@@ -1,0 +1,107 @@
+<div class="container"> 
+    <div class="input-group">
+        <input type="text" class="form-control" id="query" placeholder="Query" aria-label="Query">
+        <button type="button" class="btn" onclick="getAll()">All Results</button>
+        <button type="button" class="btn" onclick="getKnowledgeArticleResults()">Knowledge Articles</button>
+        <button type="button" class="btn" onclick="getPartners()">Partners</button>
+    </div>
+{% block main %}
+{% include 'safeAjax' %}
+
+<div class="search-results" role="alert">
+</div>
+
+<script>
+    function getAll() {
+        webapi.safeAjax({
+            type: "POST",
+            url: "/_services/search/08fcdba9-7eaa-ec11-9840-00224817a7df",
+            contentType: "application/json",
+            data: JSON.stringify({
+                "query": "@(Query)",
+                "parameters": {"Query":$("#query").val()},
+                "logicalNames": "",
+                "pageNumber": 1,
+                "filter": "",
+                "isFacetedSearch": true,
+            }),
+            success: function (data, textStatus, xhr) {
+                $(".search-results").empty();
+                const $ul = $('<ul>', { class: "results" }).append(
+                    data.items.map(result => 
+                        $("<li>")
+                        .append($("<h3>")
+                        .append($("<a href=" + result.absoluteUrl + ">").text(result.title)
+                        ))
+                        .append($("<p class=\"fragment\">").html(result.fragment))
+                    )
+                );
+                $ul.appendTo(".search-results");
+            }
+        });
+    }
+
+    function getKnowledgeArticleResults() {
+        webapi.safeAjax({
+            type: "POST",
+            url: "/_services/search/08fcdba9-7eaa-ec11-9840-00224817a7df",
+            contentType: "application/json",
+            data: JSON.stringify({
+                "query": "@(Query)",
+                "parameters": {"Query":$("#query").val()},
+                "logicalNames": "knowledgearticle",
+                "pageNumber": 1,
+                "filter": "",
+                "isFacetedSearch": true,
+            }),
+            success: function (data, textStatus, xhr) {
+                $(".search-results").empty();
+                const $ul = $('<ul>', { class: "results" }).append(
+                    data.items.map(result => 
+                        $("<li>")
+                        .append($("<h3>")
+                        .append($("<a href=" + result.absoluteUrl + ">").text(result.title)
+                        ))
+                        .append($("<p class=\"fragment\">").html(result.fragment))
+                    )
+                );
+                $ul.appendTo(".search-results");
+            }
+        });
+    }
+
+    function getPartners() {
+        webapi.safeAjax({
+            type: "POST",
+            url: "/_services/search/08fcdba9-7eaa-ec11-9840-00224817a7df",
+            contentType: "application/json",
+            data: JSON.stringify({
+                "query": "@(Query)",
+                "parameters": {"Query":$("#query").val()},
+                "logicalNames": "con_partner",
+                "pageNumber": 1,
+                "filter": "",
+                "isFacetedSearch": true,
+            }),
+            success: function (data, textStatus, xhr) {
+                $(".search-results").empty();
+                const $ul = $('<ul>', { class: "results" }).append(
+                    data.items.map(result => 
+                        $("<li>")
+                        .append($("<h3>")
+                        .append($("<a href=" + result.absoluteUrl + ">").text(result.title)
+                        ))
+                        .append($("<p class=\"fragment\">").html(result.fragment))
+                    )
+                );
+                $ul.appendTo(".search-results");
+            }
+        });
+    }
+
+    $(function() {
+        //getKnowledgeArticleResults();
+    });
+</script>
+{% endblock %}
+</div>
