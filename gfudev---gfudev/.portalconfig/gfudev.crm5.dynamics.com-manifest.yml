@@ -2918,7 +2918,7 @@ adx_webtemplate:
   IsDeleted: false
 - RecordId: f98057c7-e104-ee11-8f6e-6045bd57c81b
   DisplayName: SearchAPI
-  CheckSum: b186834f8ebdbbba23c4cbe8a4eff7cf9340cb546004b1d54f399e95cd76e4a8
+  CheckSum: b535a8cc6632aa23d963b161d05b812ffe05fe8310b36b4292f6304fc8ed677b
   IsDeleted: false
 - RecordId: f9fbdba9-7eaa-ec11-9840-00224817a7df
   DisplayName: Blank Page
