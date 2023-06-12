@@ -35,3 +35,8 @@ adx_websitebinding:
   DisplayName: 'Binding: gfudev.powerappsportals.com'
   CheckSum: 
   IsDeleted: true
+adx_webtemplate:
+- RecordId: 8f19a305-d5f6-ec11-82e6-000d3a81912a
+  DisplayName: Custom - JavaScript
+  CheckSum: 
+  IsDeleted: true
