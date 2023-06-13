@@ -1,108 +1,67 @@
-<div class="container"> 
-    <label for="query">Search Query</label>
-    <input type="text" class="form-control" id="query" placeholder="Query" aria-label="Query">
+<div class="container">
     <div class="input-group">
-        <button type="button" class="btn" onclick="getAll()">All Results</button>
-        <button type="button" class="btn" onclick="getKnowledgeArticleResults()">Knowledge Articles</button>
-        <button type="button" class="btn" onclick="getPartners()">Partners</button>
+        <div class="input-group-btn">
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" id="country" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" value="">
+                    All
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="country">
+                    <li><a href="#" data-value="">All</a></li>
+                    <li><a href="#" data-value="USA">USA</a></li>
+                    <li><a href="#" data-value="India">India</a></li>
+                </ul>
+            </div>
+        </div>
+        <input type="text" class="form-control" id="query" placeholder="Query" aria-label="Query">
     </div>
-{% block main %}
-{% include 'safeAjax' %}
+    <div class="input-group">
+        <button type="button" class="btn" onclick="getSearchResults()">All Results</button>
+        <button type="button" class="btn" onclick="getSearchResults('knowledgearticle')">Knowledge Articles</button>
+        <button type="button" class="btn" onclick="getSearchResults('con_partner')">Partners</button>
+    </div>
 
-<div class="search-results" role="alert">
-</div>
+    {% block main %}
+    {% include 'safeAjax' %}
 
-<script>
-    function getAll() {
-        webapi.safeAjax({
-            type: "POST",
-            url: "/_services/search/08fcdba9-7eaa-ec11-9840-00224817a7df",
-            contentType: "application/json",
-            data: JSON.stringify({
-                "query": "@(Query)",
-                "parameters": {"Query":$("#query").val()},
-                "logicalNames": "",
-                "pageNumber": 1,
-                "filter": "",
-                "isFacetedSearch": true,
-            }),
-            success: function (data, textStatus, xhr) {
-                $(".search-results").empty();
-                const $ul = $('<ul>', { class: "results" }).append(
-                    data.items.map(result => 
-                        $("<li>")
-                        .append($("<h3>")
-                        .append($("<a href=" + result.absoluteUrl + ">").text(result.title)
-                        ))
-                        .append($("<p class=\"fragment\">").html(result.fragment))
-                    )
-                );
-                $ul.appendTo(".search-results");
-            }
+    <div class="search-results" role="alert">
+    </div>
+
+    <script>
+        function getSearchResults(logicalname) {
+            webapi.safeAjax({
+                type: "POST",
+                url: "/_services/search/08fcdba9-7eaa-ec11-9840-00224817a7df",
+                contentType: "application/json",
+                data: JSON.stringify({
+                    "query": "@(Query)",
+                    "parameters": {"Query":$("#query").val()},
+                    "logicalNames": logicalname,
+                    "pageNumber": 1,
+                    "filter": $("#country").val(),
+                    "isFacetedSearch": true,
+                }),
+                success: function (data, textStatus, xhr) {
+                    $(".search-results").empty();
+                    const $ul = $('<ul>', { class: "results" }).append(
+                        data.items.map(result => 
+                            $("<li>")
+                            .append($("<h3>")
+                            .append($("<a href=" + result.absoluteUrl + ">").text(result.title)
+                            ))
+                            .append($("<p class=\"fragment\">").html(result.fragment))
+                        )
+                    );
+                    $ul.appendTo(".search-results");
+                }
+            });
+        }
+        $(function() {
+            $(".dropdown-menu li a").click(function(){
+                $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+                $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+            });
         });
-    }
-
-    function getKnowledgeArticleResults() {
-        webapi.safeAjax({
-            type: "POST",
-            url: "/_services/search/08fcdba9-7eaa-ec11-9840-00224817a7df",
-            contentType: "application/json",
-            data: JSON.stringify({
-                "query": "@(Query)",
-                "parameters": {"Query":$("#query").val()},
-                "logicalNames": "knowledgearticle",
-                "pageNumber": 1,
-                "filter": "",
-                "isFacetedSearch": true,
-            }),
-            success: function (data, textStatus, xhr) {
-                $(".search-results").empty();
-                const $ul = $('<ul>', { class: "results" }).append(
-                    data.items.map(result => 
-                        $("<li>")
-                        .append($("<h3>")
-                        .append($("<a href=" + result.absoluteUrl + ">").text(result.title)
-                        ))
-                        .append($("<p class=\"fragment\">").html(result.fragment))
-                    )
-                );
-                $ul.appendTo(".search-results");
-            }
-        });
-    }
-
-    function getPartners() {
-        webapi.safeAjax({
-            type: "POST",
-            url: "/_services/search/08fcdba9-7eaa-ec11-9840-00224817a7df",
-            contentType: "application/json",
-            data: JSON.stringify({
-                "query": "@(Query)",
-                "parameters": {"Query":$("#query").val()},
-                "logicalNames": "con_partner",
-                "pageNumber": 1,
-                "filter": "",
-                "isFacetedSearch": true,
-            }),
-            success: function (data, textStatus, xhr) {
-                $(".search-results").empty();
-                const $ul = $('<ul>', { class: "results" }).append(
-                    data.items.map(result => 
-                        $("<li>")
-                        .append($("<h3>")
-                        .append($("<a href=" + result.absoluteUrl + ">").text(result.title)
-                        ))
-                        .append($("<p class=\"fragment\">").html(result.fragment))
-                    )
-                );
-                $ul.appendTo(".search-results");
-            }
-        });
-    }
-
-    $(function() {
-        //getKnowledgeArticleResults();
-    });
-</script>
-{% endblock %}
+    </script>
+    {% endblock %}
 </div>
