@@ -19,6 +19,7 @@
         <button type="button" class="btn" onclick="getSearchResults()">All Results</button>
         <button type="button" class="btn" onclick="getSearchResults('knowledgearticle')">Knowledge Articles</button>
         <button type="button" class="btn" onclick="getSearchResults('con_partner')">Partners</button>
+        <button type="button" class="btn" onclick="getSearchResults('incident')">Cases</button>
     </div>
 
     {% block main %}
@@ -38,7 +39,8 @@
                     "parameters": {"Query":$("#query").val()},
                     "logicalNames": logicalname,
                     "pageNumber": 1,
-                    "filter": $("#country").val(),
+                    "filter": "+con_Country:" + $("#country").val(),
+                    //"filter": $("#country").val(),
                     "isFacetedSearch": true,
                 }),
                 success: function (data, textStatus, xhr) {

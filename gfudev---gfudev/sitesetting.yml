@@ -107,6 +107,9 @@
 - adx_name: Webapi/msdyn_richtextfile/enabled
   adx_sitesettingid: 92ac58d2-78b9-ed11-b596-6045bd57c6bd
   adx_value: true
+- adx_name: Search/DisableFacets
+  adx_sitesettingid: 9882ce40-610a-ee11-8f6e-6045bd57c789
+  adx_value: true
 - adx_name: KnowledgeManagement/ContentAccessLevel/Enabled
   adx_sitesettingid: 9bc5376f-690d-ed11-b83e-000d3a81912a
   adx_value: true
@@ -240,6 +243,9 @@
   adx_sitesettingid: db51e1a3-7eaa-ec11-9840-00224817a7df
   adx_value: true
   importsequencenumber: 3
+- adx_name: Search/EnableTopSearchResults
+  adx_sitesettingid: df16f621-610a-ee11-8f6e-6045bd57c789
+  adx_value: true
 - adx_name: ImplicitGrantFlow/cf4d8587-7429-4e7a-acea-07344bd2da34/RedirectUri
   adx_sitesettingid: dfa2d392-353e-ed11-bba2-000d3a8564cc
   adx_value: https://gfudev.powerappsportals.com
@@ -260,3 +266,6 @@
   adx_name: Control/EnableImagePreview
   adx_sitesettingid: f206072d-55f7-ec11-82e6-000d3a81912a
   adx_value: true
+- adx_name: Search/TopSearchResultsCount
+  adx_sitesettingid: f2e8322e-610a-ee11-8f6e-6045bd57c789
+  adx_value: 20

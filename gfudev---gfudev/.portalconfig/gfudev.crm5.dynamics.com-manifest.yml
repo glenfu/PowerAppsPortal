@@ -1341,6 +1341,10 @@ adx_sitesetting:
   DisplayName: Webapi/msdyn_richtextfile/enabled
   CheckSum: 3b9b42165e23a9729763ebcd711173c163220d2beeafb7e39c4a781b8249a0c5
   IsDeleted: false
+- RecordId: 9882ce40-610a-ee11-8f6e-6045bd57c789
+  DisplayName: Search/DisableFacets
+  CheckSum: 48124097083152883036c6e74010cab04dad51f3b3e4525b9e10acb17d361316
+  IsDeleted: false
 - RecordId: 9bc5376f-690d-ed11-b83e-000d3a81912a
   DisplayName: KnowledgeManagement/ContentAccessLevel/Enabled
   CheckSum: 562c2bddf4f0fdfcf9ed021313946afd67821ce36f3deaf6c8c5dc55d46762be
@@ -1489,6 +1493,10 @@ adx_sitesetting:
   DisplayName: Authentication/Registration/ExternalLoginEnabled
   CheckSum: 6ec5d40d0d430484182e327c48512acc1b1917e2799c92fdbc4a53bb74d681eb
   IsDeleted: false
+- RecordId: df16f621-610a-ee11-8f6e-6045bd57c789
+  DisplayName: Search/EnableTopSearchResults
+  CheckSum: 18f4f7bf4d999378f69378af8ed471c8ab8c1d7c84784f2871b3362bd8f2a4ab
+  IsDeleted: false
 - RecordId: dfa2d392-353e-ed11-bba2-000d3a8564cc
   DisplayName: ImplicitGrantFlow/cf4d8587-7429-4e7a-acea-07344bd2da34/RedirectUri
   CheckSum: 755ccf23481601cef95659559657371941f4b0b6fb157fd0cb3197872224b78f
@@ -1508,6 +1516,10 @@ adx_sitesetting:
 - RecordId: f206072d-55f7-ec11-82e6-000d3a81912a
   DisplayName: Control/EnableImagePreview
   CheckSum: 3a77e9a35fc097392b46f0f44ce7991b4652504e200a912517487f9b1e0a180b
+  IsDeleted: false
+- RecordId: f2e8322e-610a-ee11-8f6e-6045bd57c789
+  DisplayName: Search/TopSearchResultsCount
+  CheckSum: 329663c27c09c94b593a45c29c87b480bcf6f2a1162f19ad827ca15dc0130227
   IsDeleted: false
 adx_tag:
 - RecordId: dd51e1a3-7eaa-ec11-9840-00224817a7df
@@ -2918,7 +2930,7 @@ adx_webtemplate:
   IsDeleted: false
 - RecordId: f98057c7-e104-ee11-8f6e-6045bd57c81b
   DisplayName: SearchAPI
-  CheckSum: 2676fea1f085d4ba3dbf4828cde564d1a522e1ddf1a1585c8c150f2cb7697bc5
+  CheckSum: ac5d6abe9ddac874431021ac42374c211eb4ff7ba7404c06cccd5197137d1984
   IsDeleted: false
 - RecordId: f9fbdba9-7eaa-ec11-9840-00224817a7df
   DisplayName: Blank Page
