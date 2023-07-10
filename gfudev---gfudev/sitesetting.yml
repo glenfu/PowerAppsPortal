@@ -110,6 +110,9 @@
 - adx_name: Search/DisableFacets
   adx_sitesettingid: 9882ce40-610a-ee11-8f6e-6045bd57c789
   adx_value: true
+- adx_name: Authentication/ApplicationCookie/ExpireTimeSpan
+  adx_sitesettingid: 991f076f-c710-ee11-8f6e-6045bd57c824
+  adx_value: 24:00:00
 - adx_name: KnowledgeManagement/ContentAccessLevel/Enabled
   adx_sitesettingid: 9bc5376f-690d-ed11-b83e-000d3a81912a
   adx_value: true
@@ -126,6 +129,9 @@
 - adx_name: Webapi/account/enabled
   adx_sitesettingid: a6d76a13-28ab-ec11-9840-00224817a4f6
   adx_value: true
+- adx_name: Authentication/ApplicationCookie/LoginPath
+  adx_sitesettingid: ab3b3982-c710-ee11-8f6e-6045bd57c824
+  adx_value: /en-US/SignIn?returnUrl=%2Fen-US%2F
 - adx_name: Webapi/incident/fields
   adx_sitesettingid: af8d76d7-61f7-ec11-82e6-000d3a81912a
   adx_value: '*'

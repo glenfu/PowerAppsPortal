@@ -8,6 +8,8 @@ adx_entityname: Category of Knowledge Article
 adx_entitypermission_webrole:
 - 8974ada9-7eaa-ec11-9840-00224817a4f6
 - 8a74ada9-7eaa-ec11-9840-00224817a4f6
+- 9b0d4ea3-890d-ed11-b83e-000d3a81912a
+- fd3a98a2-890d-ed11-b83e-000d3a819aba
 adx_entitypermissionid: 5c831210-39b7-ed11-b596-6045bd57c806
 adx_read: true
 adx_scope: 756150002

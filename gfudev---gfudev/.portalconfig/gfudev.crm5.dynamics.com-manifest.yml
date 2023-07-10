@@ -849,7 +849,7 @@ adx_entitypermission:
   IsDeleted: false
 - RecordId: 5c831210-39b7-ed11-b596-6045bd57c806
   DisplayName: Category of Knowledge Article
-  CheckSum: b3229af0dbbd401208d88a151b2a798d16d1f954842a41594b3179f0274a3f23
+  CheckSum: 76ad666f5748175054e7bf106674e5251bb8a8fd4cf2a877ea658dbb8e74fce0
   IsDeleted: false
 - RecordId: 6e7e50ea-77e5-ec11-bb3c-002248174cae
   DisplayName: Cases of Account
@@ -978,7 +978,7 @@ adx_entitypermission_webrole:
   IsDeleted: false
 - RecordId: 8a74ada9-7eaa-ec11-9840-00224817a4f6
   DisplayName: $RELATIONSHIP$adx_entitypermission:5c831210-39b7-ed11-b596-6045bd57c806:adx_webrole
-  CheckSum: 854a88f07b0768515dc7340d9d845c4bb147c09d747019f9e881c9aff97ed8dc
+  CheckSum: 9a078029189c08883d194117606509798b5bbe95c0672a71d9569d9b23c4e443
   IsDeleted: false
 - RecordId: 8a74ada9-7eaa-ec11-9840-00224817a4f6
   DisplayName: $RELATIONSHIP$adx_entitypermission:9599ca04-44ac-ed11-83fe-000d3a856571:adx_webrole
@@ -1345,6 +1345,10 @@ adx_sitesetting:
   DisplayName: Search/DisableFacets
   CheckSum: 48124097083152883036c6e74010cab04dad51f3b3e4525b9e10acb17d361316
   IsDeleted: false
+- RecordId: 991f076f-c710-ee11-8f6e-6045bd57c824
+  DisplayName: Authentication/ApplicationCookie/ExpireTimeSpan
+  CheckSum: 0908e7f835109c27f6b13fcf9aa8a989649db94050164abba262153272aaab75
+  IsDeleted: false
 - RecordId: 9bc5376f-690d-ed11-b83e-000d3a81912a
   DisplayName: KnowledgeManagement/ContentAccessLevel/Enabled
   CheckSum: 562c2bddf4f0fdfcf9ed021313946afd67821ce36f3deaf6c8c5dc55d46762be
@@ -1360,6 +1364,10 @@ adx_sitesetting:
 - RecordId: a6d76a13-28ab-ec11-9840-00224817a4f6
   DisplayName: Webapi/account/enabled
   CheckSum: 54afc2b5fe0b6157006f2b44455c380da09b8d896a834bb6b4f350cac4baaf7e
+  IsDeleted: false
+- RecordId: ab3b3982-c710-ee11-8f6e-6045bd57c824
+  DisplayName: Authentication/ApplicationCookie/LoginPath
+  CheckSum: f96aa8eb2853f92349451b4e87db8f8c555403bb1288910643b512bf56c2b044
   IsDeleted: false
 - RecordId: af8d76d7-61f7-ec11-82e6-000d3a81912a
   DisplayName: Webapi/incident/fields
@@ -2930,7 +2938,7 @@ adx_webtemplate:
   IsDeleted: false
 - RecordId: f98057c7-e104-ee11-8f6e-6045bd57c81b
   DisplayName: SearchAPI
-  CheckSum: ac5d6abe9ddac874431021ac42374c211eb4ff7ba7404c06cccd5197137d1984
+  CheckSum: 8640186a5c1ec46bc13e53b0af69dd137e09866db671d643b8c3052937798852
   IsDeleted: false
 - RecordId: f9fbdba9-7eaa-ec11-9840-00224817a7df
   DisplayName: Blank Page
