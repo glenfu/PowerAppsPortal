@@ -561,7 +561,7 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: 6fc6779d-7eaa-ec11-9840-00224817a4f6
   DisplayName: Chat Widget Code
-  CheckSum: 200358e2c6af4724e7549cad7d060ded346d35f7b66cff834d558518fa25bbb6
+  CheckSum: 910ed89b691716b51e85d371d43d7f26bf5350f8c9afcc0cf450117b2132ae0b
   IsDeleted: false
 - RecordId: 70398d28-d4f6-ec11-82e6-000d3a81912a
   DisplayName: Head/Bottom
@@ -720,6 +720,10 @@ adx_entityform:
   DisplayName: Edit Profile
   CheckSum: 6a90451a1949b97bf03641fc584136a9546ab0261e31152f5355ff78137b9b9f
   IsDeleted: false
+- RecordId: ff3128c3-312c-ee11-9965-002248ecfc1c
+  DisplayName: Knowledge Article Attachment
+  CheckSum: b22c33c587f313e0130c1ec26e8c352f33570527471d5157dee6815282110c2e
+  IsDeleted: false
 adx_entityformmetadata:
 - RecordId: 02d0be5f-75b9-ed11-b596-6045bd57c6bd
   DisplayName: 02d0be5f-75b9-ed11-b596-6045bd57c6bd
@@ -871,6 +875,10 @@ adx_entitypermission:
   DisplayName: Knowledge Articles Read All
   CheckSum: 1345ccd2b3b302ff446ba54b135ee8890f1b6134cab524157ea9f587bc4fd804
   IsDeleted: false
+- RecordId: b1aadade-2f2c-ee11-9965-002248ecfc1c
+  DisplayName: Knowledge Article Attachments
+  CheckSum: 2ea8a84eeecdee9006142220053c0d4105f588a9df0a9bd971e00cc86f8a7972
+  IsDeleted: false
 - RecordId: c9f90bed-82a7-ed11-aad1-000d3a8564cc
   DisplayName: Portal Comment Attachments
   CheckSum: a5604d718777ad6f2a5b819375a7d28d7ea10a046e1e174e848b74d573fe6012
@@ -943,6 +951,10 @@ adx_entitypermission_webrole:
 - RecordId: 8974ada9-7eaa-ec11-9840-00224817a4f6
   DisplayName: $RELATIONSHIP$adx_entitypermission:8411e262-81a7-ed11-aad0-000d3a8568c4:adx_webrole
   CheckSum: f2aac92f646df7a16fabbd37b24c87a01deeff58a4926c4d62a7cf1105c0b728
+  IsDeleted: false
+- RecordId: 8974ada9-7eaa-ec11-9840-00224817a4f6
+  DisplayName: $RELATIONSHIP$adx_entitypermission:b1aadade-2f2c-ee11-9965-002248ecfc1c:adx_webrole
+  CheckSum: e657425bf41a0fd3effb2732212d1019d46d2edd546449f24280db236bc21e97
   IsDeleted: false
 - RecordId: 8974ada9-7eaa-ec11-9840-00224817a4f6
   DisplayName: $RELATIONSHIP$adx_entitypermission:d334fa64-f4a8-ed11-aad1-000d3a8564cc:adx_webrole
@@ -1199,6 +1211,10 @@ adx_sitemarker:
 - RecordId: b651e1a3-7eaa-ec11-9840-00224817a7df
   DisplayName: Search
   CheckSum: 77dd5284129984df0701a9f982f6937ab7781f72c1cbde7d1444b84d87996976
+  IsDeleted: false
+- RecordId: d0c79777-2f2c-ee11-9965-002248ecfc1c
+  DisplayName: msdyn_kbattachment_SearchResultPage
+  CheckSum: 7a347874e7ca737f611509cd65b55e9751d630429058faa12db792da46c7c739
   IsDeleted: false
 - RecordId: f5512203-32af-ec11-983f-00224818d851
   DisplayName: knowledgearticle_SearchResultPage
@@ -2355,6 +2371,10 @@ adx_webpage:
   DisplayName: Access Denied
   CheckSum: 0be29fe0c6e23e393bd90a77820eb61b56bcbea1901c04f0a96afa7222a07c3f
   IsDeleted: false
+- RecordId: 35437459-2f2c-ee11-9965-002248ecfc1c
+  DisplayName: Knowledge Article Attachment
+  CheckSum: dad2208871bc1bd9088ae62ba1996a4170592fea2bd5c645af476014c830cc49
+  IsDeleted: false
 - RecordId: 3857352f-128c-4673-8603-b63512105235
   DisplayName: Knowledge Articles
   CheckSum: c5be7ac1a827229ca892be4d5e2b8981234d81b331dbe628f9a37f4b7a794384
@@ -2422,6 +2442,10 @@ adx_webpage:
 - RecordId: 57be8861-e2d9-ed11-a7c6-002248162fa8
   DisplayName: Subpage 1
   CheckSum: 1dd6418a080aabb1050e43dc0d567a472154d4bdb3acc8159919b5edea5ba9da
+  IsDeleted: false
+- RecordId: 59437459-2f2c-ee11-9965-002248ecfc1c
+  DisplayName: Knowledge Article Attachment
+  CheckSum: 00f09ca54534160a96082f356ceb5f25164417e447d56f4c97d4b278906e87bf
   IsDeleted: false
 - RecordId: 5abe8861-e2d9-ed11-a7c6-002248162fa8
   DisplayName: Subpage 2
@@ -2582,6 +2606,10 @@ adx_webpage:
 - RecordId: b59b0bf2-9b92-4bb1-b231-6ddcef1bf8da
   DisplayName: Partners
   CheckSum: b307533d2225a9224ad453df3a7ab821a1af4acdfcf197810a0917cdbf41d8ca
+  IsDeleted: false
+- RecordId: bc359e9d-322c-ee11-9965-002248ecfc1c
+  DisplayName: Knowledge Article Attachment
+  CheckSum: d44e09e10461a27039fca03f54c931bc4915c70b07e40d3775ea89f0cc040f56
   IsDeleted: false
 - RecordId: bd1caa23-eff4-11ce-f0db-46fcec596722
   DisplayName: Guided Tour-deleted

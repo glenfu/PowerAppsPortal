@@ -30,6 +30,9 @@
 - adx_name: Search
   adx_pageid: 8274ada9-7eaa-ec11-9840-00224817a4f6
   adx_sitemarkerid: b651e1a3-7eaa-ec11-9840-00224817a7df
+- adx_name: msdyn_kbattachment_SearchResultPage
+  adx_pageid: 35437459-2f2c-ee11-9965-002248ecfc1c
+  adx_sitemarkerid: d0c79777-2f2c-ee11-9965-002248ecfc1c
 - adx_name: knowledgearticle_SearchResultPage
   adx_pageid: 3857352f-128c-4673-8603-b63512105235
   adx_sitemarkerid: f5512203-32af-ec11-983f-00224818d851
