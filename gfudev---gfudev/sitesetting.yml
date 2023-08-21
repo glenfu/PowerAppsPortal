@@ -1,6 +1,8 @@
 - adx_name: HTTP/SameSite/Default
   adx_sitesettingid: 16a82b1e-4e02-ed11-82e6-000d3a819aba
   adx_value: None
+  statecode: 1
+  statuscode: 2
 - adx_name: Webapi/contact/enabled
   adx_sitesettingid: 1e7b49cb-3cab-ec11-9840-00224817a4f6
   adx_value: true
@@ -25,6 +27,8 @@
 - adx_name: HTTP/X-Frame-Options
   adx_sitesettingid: 757f85a3-7eaa-ec11-9840-00224817a4f6
   adx_value: SAMEORIGIN
+  statecode: 1
+  statuscode: 2
 - adx_name: Webapi/cre1b_link/fields
   adx_sitesettingid: 7606be79-40ab-ec11-9840-00224817a4f6
   adx_value: cre1b_name,cre1b_url,cre1b_imageurl,cre1b_Link_Contact_Contact
@@ -55,6 +59,8 @@
 - adx_description: frame-ancestors 'self'
   adx_name: HTTP/Content-Security-Policy
   adx_sitesettingid: 7c3c0954-4d02-ed11-82e6-000d3a819aba
+  statecode: 1
+  statuscode: 2
 - adx_description: 'Override query for site search, to apply additional weights and filters. @Query is the query text entered by a user. Lucene query syntax reference: http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html'
   adx_name: search/query
   adx_sitesettingid: 7c7f85a3-7eaa-ec11-9840-00224817a4f6

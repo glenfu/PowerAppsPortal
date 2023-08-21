@@ -788,7 +788,7 @@ adx_entityformmetadata:
 adx_entitylist:
 - RecordId: 1af55f86-77e5-ec11-bb3c-002248174cae
   DisplayName: Case List
-  CheckSum: b1837df384f3affbef483064ed210b82282413ed47f01b0278e58100157303d3
+  CheckSum: 8c45f39c5b8296053bc1024651bdcd8c284655e540434f5b01d5bc12c0694ebc
   IsDeleted: false
 - RecordId: e9b20ef7-dbdc-ec11-bb3c-002248174cae
   DisplayName: PartnerList
@@ -1223,7 +1223,7 @@ adx_sitemarker:
 adx_sitesetting:
 - RecordId: 16a82b1e-4e02-ed11-82e6-000d3a819aba
   DisplayName: HTTP/SameSite/Default
-  CheckSum: d1ef472c2cbe3baa6aae11962a4eabb7f9e55a4dd60b4f8ccd443ea2ff7bbdd1
+  CheckSum: 08c00f10682d9acdf15cba4ed30c545d724eabe4df2d78443ee7b064cf58c133
   IsDeleted: false
 - RecordId: 1e7b49cb-3cab-ec11-9840-00224817a4f6
   DisplayName: Webapi/contact/enabled
@@ -1255,7 +1255,7 @@ adx_sitesetting:
   IsDeleted: false
 - RecordId: 757f85a3-7eaa-ec11-9840-00224817a4f6
   DisplayName: HTTP/X-Frame-Options
-  CheckSum: 31ad9b2bfcbf7547f8534a72d1904c06f83e737caa25782341c38e6bb4b7b31f
+  CheckSum: c140b522690cf455080e0fcf5de512c82a6a037e82b38de4106b7105ddf8f5b5
   IsDeleted: false
 - RecordId: 7606be79-40ab-ec11-9840-00224817a4f6
   DisplayName: Webapi/cre1b_link/fields
@@ -1291,7 +1291,7 @@ adx_sitesetting:
   IsDeleted: false
 - RecordId: 7c3c0954-4d02-ed11-82e6-000d3a819aba
   DisplayName: HTTP/Content-Security-Policy
-  CheckSum: cbf45861fe51c422ae2003312a4822a0a6f0a6d3309aae89913343503aa726cb
+  CheckSum: 68706f52d32ca2b2dfde8452e32b24d28393475e27b4ab275e915330c4b2c0a1
   IsDeleted: false
 - RecordId: 7c7f85a3-7eaa-ec11-9840-00224817a4f6
   DisplayName: search/query
@@ -1956,6 +1956,10 @@ adx_webfile:
   DisplayName: bootstrap-tourist.js
   CheckSum: 50f1ec7fa2b05f84473067407c61dae0a6f6b735e96118d9cfc6d48e111d778b
   IsDeleted: false
+- RecordId: 9e50f237-a368-4a88-9d2a-a59de125dbd6
+  DisplayName: thumbnail.css
+  CheckSum: 1d1736f275e7ba169b14307c834eb48eca43576e83b7e839937eb5e03981b40c
+  IsDeleted: false
 - RecordId: b98d48a9-71a3-ed11-aad1-000d3a856da5
   DisplayName: bootstrap-tour.js
   CheckSum: ee0ca9268cd9c1be000c43a1e3f415b9dfdb5018d37ab602674d27e3fb59a63c
@@ -1971,6 +1975,10 @@ adx_webfile:
 - RecordId: d0e87039-6ea3-ed11-aad1-000d3a856da5
   DisplayName: bootstrap-tour.min.css
   CheckSum: ce7e04dacd1a7ec93942fd2b6849f497e9915467576523fcc89ccaafecd67262
+  IsDeleted: false
+- RecordId: dd96a2d1-aad2-4a13-bd98-7daf8e9374fc
+  DisplayName: thumbnail.css
+  CheckSum: ff152f2dce23d9e433812f9c0fd977956d714bb660a74e8b093aed14d0485bf8
   IsDeleted: false
 - RecordId: e451e1a3-7eaa-ec11-9840-00224817a7df
   DisplayName: Banner image.png
@@ -2034,12 +2042,16 @@ adx_weblink:
   CheckSum: 92f4310355d1c8faaab7cf859fef3c303511174b0c10f4161de5b9b0b71c12ab
   IsDeleted: false
 - RecordId: 064e3ad1-1f35-4732-b56f-14664e0b3dd3
-  DisplayName: Cases
-  CheckSum: f54280435c37f9dc73b617d9dcbaeb7d72145a45b0b4df52ed1c94e0301b873d
+  DisplayName: Case
+  CheckSum: ba5ad5895e10743ca500746eef8b39378137dd384776aa4033411a0a700a6141
   IsDeleted: false
 - RecordId: 190837e4-8d19-a95d-32f1-65a2574dd745
   DisplayName: partners_SearchResultPage
   CheckSum: cdfb426799944f60ccda2babf043c49800349aed530e6b42b1f0ffbf42291e3f
+  IsDeleted: false
+- RecordId: 26b93f39-b3e9-451f-aa67-1db03285d982
+  DisplayName: SearchAPI
+  CheckSum: 3ec1f53866d347b564407859627e112b049cd36c8cb3fbd0bf9655e6a1444bdb
   IsDeleted: false
 - RecordId: 27899a9d-0e3f-4866-8b1e-31cbd6e0c9b9
   DisplayName: Home
@@ -2173,6 +2185,10 @@ adx_weblink:
   DisplayName: PortalWebAPI
   CheckSum: b8be09d2005b925d14bf5a2817ee508b2b561a210416ce18c256a37de6dcda1e
   IsDeleted: false
+- RecordId: 8bbc0297-fdd4-49fb-be68-b8672fd20652
+  DisplayName: Knowledge Article Attachment
+  CheckSum: db335208b9c3ffcb2252589077397a5af2ffaee1c54cd7b024aec8069b6ff426
+  IsDeleted: false
 - RecordId: 8bfe8567-e2d9-ed11-a7c6-002248162fa8
   DisplayName: Partner
   CheckSum: 6a099b917129837801fc66e89f586c66fd83e1209525e6e93abf97566a080ece
@@ -2196,6 +2212,10 @@ adx_weblink:
 - RecordId: a2fe8567-e2d9-ed11-a7c6-002248162fa8
   DisplayName: Pages
   CheckSum: 5c70c1e2116d18c297e28039de52116245f97083b4e7bb5066c2397d2185ff6d
+  IsDeleted: false
+- RecordId: a967b412-7f4c-48db-8186-a6d799d00b19
+  DisplayName: React Sandbox
+  CheckSum: e6779a0a5a2335b1b06e1fadb0f87f3cd00989704cf27453d88b03b0a26ffe16
   IsDeleted: false
 - RecordId: abfe8567-e2d9-ed11-a7c6-002248162fa8
   DisplayName: Contacts
@@ -2329,7 +2349,7 @@ adx_webpage:
   IsDeleted: false
 - RecordId: 02cc4fa0-d0d9-ed11-a7c7-6045bd57c81b
   DisplayName: React Sandbox
-  CheckSum: 467e17972bc6851d54b4762b41286a75b4b3544536f1427f7f31dcac5927294f
+  CheckSum: f377add850d7637f6c192478d3af1021e98ebb38102407156433db258efd19f1
   IsDeleted: false
 - RecordId: 05bfdaa5-2486-8e90-0f3d-30ee9faa7e6a
   DisplayName: Guided Tour-deleted
@@ -2341,7 +2361,7 @@ adx_webpage:
   IsDeleted: false
 - RecordId: 0bcc4fa0-d0d9-ed11-a7c7-6045bd57c81b
   DisplayName: React Sandbox
-  CheckSum: 47371a4387efdb0430280fb88f550ac6ee1283b174a7a50b3b25a3a94f6dd171
+  CheckSum: f6c2956af84d783b9a26c0d64885517677cc3e503af35f9d511ddb689842f55f
   IsDeleted: false
 - RecordId: 0ebe8861-e2d9-ed11-a7c6-002248162fa8
   DisplayName: Contacts
@@ -2373,7 +2393,7 @@ adx_webpage:
   IsDeleted: false
 - RecordId: 35437459-2f2c-ee11-9965-002248ecfc1c
   DisplayName: Knowledge Article Attachment
-  CheckSum: dad2208871bc1bd9088ae62ba1996a4170592fea2bd5c645af476014c830cc49
+  CheckSum: 11a3b9af350203d5cad48f41f82e19828bac0c027c779e0a1457d8aca4f53990
   IsDeleted: false
 - RecordId: 3857352f-128c-4673-8603-b63512105235
   DisplayName: Knowledge Articles
@@ -2417,7 +2437,7 @@ adx_webpage:
   IsDeleted: false
 - RecordId: 49be8861-e2d9-ed11-a7c6-002248162fa8
   DisplayName: React Sandbox
-  CheckSum: 8fe5cec69a72c73e743e7e70847e606859126fa99ebb00506feb41b6b64d37c0
+  CheckSum: cf2d8d17d32604d7c06c441c03c572521c393f9693988520c75067328de57f7f
   IsDeleted: false
 - RecordId: 50be8861-e2d9-ed11-a7c6-002248162fa8
   DisplayName: Guided Tour
@@ -2445,7 +2465,7 @@ adx_webpage:
   IsDeleted: false
 - RecordId: 59437459-2f2c-ee11-9965-002248ecfc1c
   DisplayName: Knowledge Article Attachment
-  CheckSum: 00f09ca54534160a96082f356ceb5f25164417e447d56f4c97d4b278906e87bf
+  CheckSum: f3e11adc2dccd9653b97faee9260ecab963d41a12901224a77af1baaecbca38e
   IsDeleted: false
 - RecordId: 5abe8861-e2d9-ed11-a7c6-002248162fa8
   DisplayName: Subpage 2
@@ -2533,7 +2553,7 @@ adx_webpage:
   IsDeleted: false
 - RecordId: 88918adf-e104-ee11-8f6e-6045bd57c81b
   DisplayName: SearchAPI
-  CheckSum: db5126c1dad352311526d0e00ac6887f3f1d2df0c51cb74100c32197e3908936
+  CheckSum: df831de6cd4a081c74cf479232b0614a39f2073c28db90b41264e70cfa8a124c
   IsDeleted: false
 - RecordId: 8a87cee5-64e5-4bf7-985d-f7ef7136cc97
   DisplayName: PortalWebAPI
@@ -2609,7 +2629,7 @@ adx_webpage:
   IsDeleted: false
 - RecordId: bc359e9d-322c-ee11-9965-002248ecfc1c
   DisplayName: Knowledge Article Attachment
-  CheckSum: d44e09e10461a27039fca03f54c931bc4915c70b07e40d3775ea89f0cc040f56
+  CheckSum: 5fd1263a0dc35518635061f25ea2f6d53a501be42e24d432e34917bf9e4be3b3
   IsDeleted: false
 - RecordId: bd1caa23-eff4-11ce-f0db-46fcec596722
   DisplayName: Guided Tour-deleted
@@ -2641,7 +2661,7 @@ adx_webpage:
   IsDeleted: false
 - RecordId: e38264d9-e104-ee11-8f6e-6045bd57c81b
   DisplayName: SearchAPI
-  CheckSum: fdd703a957841cdbed71f33b387c56f66ee3bc3bf59c93fcb4673498e73764cc
+  CheckSum: b9bd14dccf3d4884cd0f7b37197fc37b309a8e967c2eec188439f74550849ad4
   IsDeleted: false
 - RecordId: e6fbdba9-7eaa-ec11-9840-00224817a7df
   DisplayName: Page Not Found
@@ -3085,6 +3105,10 @@ annotation:
   DisplayName: bootstrap-tour.js
   CheckSum: 9f5f827af8d3d9e8d7cdbdc4aea332e1fa87be3b19398f751d557c7ab2ef3ba2
   IsDeleted: false
+- RecordId: 8dccc13c-abc0-4c15-ac72-bffe7fb1ebc4
+  DisplayName: thumbnail.css
+  CheckSum: 8c1c2308a9c6b6b095ddded961a0771d3e0de7548a055de7bff78f056c2a391a
+  IsDeleted: false
 - RecordId: 9824b088-7bee-91f4-bb42-ba202ac2f5a3
   DisplayName: thumbnail.jpg
   CheckSum: c1fb0aaba4f26a5cbddd2c823f15eda7dbb79d368b78bb59628a1f7a78e435bc
@@ -3132,6 +3156,10 @@ annotation:
 - RecordId: d76518e2-9baa-ec11-9840-00224817a4f6
   DisplayName: portalbasictheme.css
   CheckSum: 9669907b0ccf1a0e08d96158cf467eb19a609061e899013a40b994acc640f577
+  IsDeleted: false
+- RecordId: da98e1f3-68ac-4690-9159-c603bbfc534b
+  DisplayName: thumbnail.css
+  CheckSum: 8af16815a63892959b577556f51fd5d61e6507f86aeb90ef2a6be4f1ebfb04dc
   IsDeleted: false
 - RecordId: e1dc7ab4-772b-442a-b2c7-07a6657963fa
   DisplayName: android-chrome-512x512.png

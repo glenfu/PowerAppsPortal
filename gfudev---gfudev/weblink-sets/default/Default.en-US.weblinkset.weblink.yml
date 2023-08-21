@@ -13,7 +13,7 @@
   adx_displayimageonly: false
   adx_displayorder: 18
   adx_displaypagechildlinks: false
-  adx_name: Cases
+  adx_name: Case
   adx_openinnewwindow: false
   adx_pageid: 3cd0263a-099e-ed11-aad1-000d3a856f48
   adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
@@ -33,6 +33,17 @@
   adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
   statecode: 1
   statuscode: 2
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
+  adx_displayorder: 25
+  adx_displaypagechildlinks: false
+  adx_name: SearchAPI
+  adx_openinnewwindow: false
+  adx_pageid: e38264d9-e104-ee11-8f6e-6045bd57c81b
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: 26b93f39-b3e9-451f-aa67-1db03285d982
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
 - adx_disablepagevalidation: false
   adx_displayimageonly: false
   adx_displayorder: 1
@@ -182,6 +193,17 @@
   adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
 - adx_disablepagevalidation: false
   adx_displayimageonly: false
+  adx_displayorder: 23
+  adx_displaypagechildlinks: false
+  adx_name: Knowledge Article Attachment
+  adx_openinnewwindow: false
+  adx_pageid: 35437459-2f2c-ee11-9965-002248ecfc1c
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: 8bbc0297-fdd4-49fb-be68-b8672fd20652
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
   adx_displayorder: 11
   adx_displaypagechildlinks: false
   adx_name: Knowledge Articles
@@ -217,6 +239,17 @@
   adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
   statecode: 1
   statuscode: 2
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
+  adx_displayorder: 24
+  adx_displaypagechildlinks: false
+  adx_name: React Sandbox
+  adx_openinnewwindow: false
+  adx_pageid: 02cc4fa0-d0d9-ed11-a7c7-6045bd57c81b
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: a967b412-7f4c-48db-8186-a6d799d00b19
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
 - adx_disablepagevalidation: false
   adx_displayimageonly: false
   adx_displayorder: 1
