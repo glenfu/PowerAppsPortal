@@ -264,6 +264,17 @@
   adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
 - adx_disablepagevalidation: false
   adx_displayimageonly: false
+  adx_displayorder: 26
+  adx_displaypagechildlinks: false
+  adx_name: Custom Cases
+  adx_openinnewwindow: false
+  adx_pageid: 95ac1b5f-4572-9645-1839-0519f086647c
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: bf5f11cf-8d9d-eabf-cfa3-c5721bd3e189
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
   adx_displayorder: 15
   adx_displaypagechildlinks: false
   adx_name: DynamicContent

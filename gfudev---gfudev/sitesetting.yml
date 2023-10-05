@@ -1,8 +1,6 @@
 - adx_name: HTTP/SameSite/Default
   adx_sitesettingid: 16a82b1e-4e02-ed11-82e6-000d3a819aba
   adx_value: None
-  statecode: 1
-  statuscode: 2
 - adx_name: Webapi/contact/enabled
   adx_sitesettingid: 1e7b49cb-3cab-ec11-9840-00224817a4f6
   adx_value: true
@@ -27,8 +25,6 @@
 - adx_name: HTTP/X-Frame-Options
   adx_sitesettingid: 757f85a3-7eaa-ec11-9840-00224817a4f6
   adx_value: SAMEORIGIN
-  statecode: 1
-  statuscode: 2
 - adx_name: Webapi/cre1b_link/fields
   adx_sitesettingid: 7606be79-40ab-ec11-9840-00224817a4f6
   adx_value: cre1b_name,cre1b_url,cre1b_imageurl,cre1b_Link_Contact_Contact
@@ -59,9 +55,10 @@
 - adx_description: frame-ancestors 'self'
   adx_name: HTTP/Content-Security-Policy
   adx_sitesettingid: 7c3c0954-4d02-ed11-82e6-000d3a819aba
-  statecode: 1
-  statuscode: 2
-- adx_description: 'Override query for site search, to apply additional weights and filters. @Query is the query text entered by a user. Lucene query syntax reference: http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html'
+- adx_description: >-
+    Override query for site search, to apply additional weights and filters. @Query is the query text entered by a user. Lucene query syntax reference: http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html
+
+    +(@Query) \_title:(@Query) \_logicalname:knowledgearticle~0.9^0.3 \_logicalname:annotation~0.9^0.25 \_logicalname:adx_webpage~0.9^0.2 -\_logicalname:adx_webfile~0.9 adx_partialurl:(@Query) \_logicalname:adx_blogpost~0.9^0.1 -\_logicalname:adx_communityforumthread~0.9
   adx_name: search/query
   adx_sitesettingid: 7c7f85a3-7eaa-ec11-9840-00224817a4f6
 - adx_name: Search/IndexQueryName
@@ -126,12 +123,14 @@
   adx_sitesettingid: 9bdfb71b-30af-ec11-983f-00224818d851
   adx_value: true
 - adx_description: >-
+    1B42539242AE836A3EA83C080F64FF78E9B0B0DF
+
     775B3290D62652EBAA3D2001F72908E5AD010EBB
 
     395F914A27B704C83B638861E0A24EEFA24D427E
   adx_name: CustomCertificates/ImplicitGrantflow
   adx_sitesettingid: a6924b63-493e-ed11-bba2-000d3a8564cc
-  adx_value: 1B42539242AE836A3EA83C080F64FF78E9B0B0DF
+  adx_value: 577222e2-5a30-4e24-ae89-376b568e9068
 - adx_name: Webapi/account/enabled
   adx_sitesettingid: a6d76a13-28ab-ec11-9840-00224817a4f6
   adx_value: true

@@ -1,70 +1,217 @@
 <div class="container">
-    <div class="input-group">
-        <div class="input-group-btn">
-            <div class="dropdown">
-                <button class="btn btn-default dropdown-toggle" id="country" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" value="">
-                    All
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="country">
-                    <li><a href="#" data-value="">All</a></li>
-                    <li><a href="#" data-value="USA">USA</a></li>
-                    <li><a href="#" data-value="India">India</a></li>
-                </ul>
-            </div>
-        </div>
-        <input type="text" class="form-control" id="query" placeholder="Query" aria-label="Query">
+  <div class="input-group">
+    <div class="input-group-btn">
+      <div class="dropdown">
+        <button
+          class="btn btn-default dropdown-toggle"
+          id="country"
+          type="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="true"
+          value=""
+        >
+          All
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="country">
+          <li><a href="#" data-value="">All</a></li>
+          <li><a href="#" data-value="USA">USA</a></li>
+          <li><a href="#" data-value="India">India</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="input-group">
-        <button type="button" class="btn" onclick="getSearchResults()">All Results</button>
-        <button type="button" class="btn" onclick="getSearchResults('knowledgearticle')">Knowledge Articles</button>
-        <button type="button" class="btn" onclick="getSearchResults('con_partner')">Partners</button>
-        <button type="button" class="btn" onclick="getSearchResults('incident')">Cases</button>
-    </div>
+    <input
+      type="text"
+      class="form-control"
+      id="query"
+      placeholder="Query"
+      aria-label="Query"
+    />
+  </div>
+  <div class="input-group">
+    <button type="button" class="btn" onclick="getSearchResults()">
+      All Results
+    </button>
+    <button
+      type="button"
+      class="btn"
+      onclick="getSearchResults('knowledgearticle')"
+    >
+      Knowledge Articles
+    </button>
+    <button type="button" class="btn" onclick="getSearchResults('con_partner')">
+      Partners
+    </button>
+    <button type="button" class="btn" onclick="getSearchResults('incident')">
+      Cases
+    </button>
+  </div>
 
-    {% block main %}
-    {% include 'safeAjax' %}
+  {% block main %} {% include 'safeAjax' %}
 
-    <div class="search-results" role="alert">
-    </div>
+  <div class="search-results" role="alert"></div>
 
-    <script>
-        function getSearchResults(logicalname) {
-            webapi.safeAjax({
-                type: "POST",
-                url: "/_services/search/08fcdba9-7eaa-ec11-9840-00224817a7df",
-                contentType: "application/json",
-                data: JSON.stringify({
-                    "query": "@(Query)",
-                    "parameters": {"Query":$("#query").val()},
-                    "logicalNames": logicalname,
-                    "pageNumber": 1,
-                    "pageSize": 20,
-                    "filter": "+con_Country:" + $("#country").val(),
-                    //"filter": $("#country").val(),
-                    "isFacetedSearch": true,
-                }),
-                success: function (data, textStatus, xhr) {
-                    $(".search-results").empty();
-                    const $ul = $('<ul>', { class: "results" }).append(
-                        data.items.map(result => 
-                            $("<li>")
-                            .append($("<h3>")
-                            .append($("<a href=" + result.absoluteUrl + ">").text(result.title)
-                            ))
-                            .append($("<p class=\"fragment\">").html(result.fragment))
-                        )
-                    );
-                    $ul.appendTo(".search-results");
-                }
-            });
+  <script>
+    function getSearchResults(logicalname) {
+      webapi.safeAjax({
+        type: "POST",
+        url: "/_services/search/08fcdba9-7eaa-ec11-9840-00224817a7df",
+        contentType: "application/json",
+        data: JSON.stringify({
+          query: "@(Query)",
+          parameters: { Query: $("#query").val() },
+          logicalNames: logicalname,
+          pageNumber: 1,
+          pageSize: 10,
+          //"filter": "+con_Country:" + $("#country").val(),
+          //"filter": $("#country").val(),
+          isFacetedSearch: true,
+        }),
+        success: function (data, textStatus, xhr) {
+          $(".search-results").empty();
+          var $ul = $("<ul>", { class: "results" });
+          data.items.map((result) => {
+            $ul
+              .append($("<li>"))
+              .append(
+                $("<h3>").append(
+                  $("<a href=" + result.absoluteUrl + ">").text(result.title)
+                )
+              )
+              .append($('<p class="fragment">').html(result.fragment));
+            console.log(result.title + "\n" + result.absoluteUrl);
+
+            if (typeof result.relatedAttachments !== "undefined") {
+              result.relatedAttachments.map((attachment) => {
+                console.log(attachment.title);
+                $ul
+                  .append($('<li class="note-item">'))
+                  .append(
+                    $(
+                      '<a id="kbattachment-' +
+                        attachment.entityID +
+                        '" title="' +
+                        attachment.title +
+                        '" href="javascript:downloadKbAttachmentFile(\'kbattachment-' +
+                        attachment.entityID +
+                        "', '" +
+                        attachment.title +
+                        "', " +
+                        attachment.fileSize +
+                        ", '" +
+                        attachment.fileType +
+                        "', '" +
+                        attachment.downloadBlockUrl +
+                        "', '" +
+                        attachment.initializeDownloadUrl +
+                        "')\">"
+                    ).text(attachment.title)
+                  )
+                  .append(
+                    $('<p class="fragment text-muted">').html(
+                      attachment.fragment
+                    )
+                  );
+              });
+            }
+          });
+          // const $ul = $("<ul>", { class: "results" }).append(
+          //   data.items.map((result) =>
+          //     $("<li>")
+          //       .append(
+          //         $("<h3>").append(
+          //           $("<a href=" + result.absoluteUrl + ">").text(result.title)
+          //         )
+          //       )
+          //       .append($('<p class="fragment">').html(result.fragment))
+          //   )
+          // );
+          $ul.appendTo(".search-results");
+        },
+      });
+    }
+    $(function () {
+      $(".dropdown-menu li a").click(function () {
+        $(this)
+          .parents(".dropdown")
+          .find(".btn")
+          .html($(this).text() + ' <span class="caret"></span>');
+        $(this).parents(".dropdown").find(".btn").val($(this).data("value"));
+      });
+    });
+
+    function downloadKbAttachmentFile(
+      attachmentElementId,
+      fileName,
+      fileSize,
+      mimeType,
+      downloadBlockUrl,
+      initializeUrl
+    ) {
+      // Download block API supports max 4MB block size
+      const blockSizeInBytes = 4096 * 1024;
+      const totalNumberOfBlocks = parseInt(fileSize / blockSizeInBytes + 1);
+      var fileContinuationToken = "";
+      var contentString = "";
+      var numberOfBlocksDownloaded = 0;
+      var blockNumberToContentMap = {};
+      function downloadBlockCallback(i, result) {
+        numberOfBlocksDownloaded++;
+        blockNumberToContentMap[i] = result;
+        if (numberOfBlocksDownloaded == totalNumberOfBlocks) {
+          for (var j = 0; j < totalNumberOfBlocks; j++) {
+            contentString += blockNumberToContentMap[j];
+          }
+          var isImage = mimeType.startsWith("image/");
+          const attachmentElement =
+            document.getElementById(attachmentElementId);
+          if (isImage) {
+            const bodyByteString = atob(contentString);
+            const bodyBuffer = new ArrayBuffer(bodyByteString.length);
+            const bodyView = new Uint8Array(bodyBuffer);
+            for (var k = 0; k < bodyByteString.length; k++) {
+              bodyView[k] = bodyByteString.charCodeAt(k);
+            }
+            var imageUrl = URL.createObjectURL(
+              new Blob([bodyBuffer], { type: mimeType })
+            );
+            attachmentElement.href = imageUrl;
+            attachmentElement.target = "_blank";
+          } else {
+            const linkSource = "data:" + mimeType + ";base64," + contentString;
+            attachmentElement.href = linkSource;
+            attachmentElement.download = fileName;
+          }
+          attachmentElement.click();
         }
-        $(function() {
-            $(".dropdown-menu li a").click(function(){
-                $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
-                $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+      }
+      shell.ajaxSafePost({
+        type: "GET",
+        url: initializeUrl,
+        success: function (result) {
+          fileContinuationToken = encodeURIComponent(result);
+          for (var i = 0; i < totalNumberOfBlocks; i++) {
+            url =
+              downloadBlockUrl +
+              "&blockNumber=" +
+              i +
+              "&fileContinuationToken=" +
+              fileContinuationToken +
+              "&blockSize=" +
+              blockSizeInBytes;
+            var x = downloadBlockCallback.bind(this, i);
+            shell.ajaxSafePost({
+              type: "GET",
+              url: url,
+              success: (result) => {
+                x(result);
+              },
             });
-        });
-    </script>
-    {% endblock %}
+          }
+        },
+      });
+    }
+  </script>
+  {% endblock %}
 </div>

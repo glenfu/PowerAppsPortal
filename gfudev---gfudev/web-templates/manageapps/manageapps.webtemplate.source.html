@@ -41,6 +41,32 @@
 
 <script>
     var cre1b_Link_Contact_Contact = [];
+function getContacts() {
+    
+    var currentDate = moment().format('YYYY-MM-DD');
+    var fetchxml = encodeURI(
+        '<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">' +
+        '<entity name="contact">' +
+        '<attribute name="fullname" />' +
+        '<attribute name="telephone1" />' +
+        '<attribute name="contactid" />' +
+        '<order attribute="fullname" descending="false" />' +
+        '<filter type="and">' +
+        '<condition attribute="createdon" operator="on-or-before" value="'+ currentDate + '" />' +
+        "</filter>" +
+        "</entity>" +
+        "</fetch>"
+    );
+    webapi.safeAjax({
+        type: "GET",
+        url: "/_api/contacts?fetchXml=" + fetchxml,
+        contentType: "application/json",
+        success: function (data, textStatus, xhr) {
+        var result = data;
+        console.log(result);
+        },
+    });
+    }
 
     function getLinks() {
         webapi.safeAjax({
@@ -93,6 +119,7 @@
 
     $(function() {
         getLinks();
+        getContacts();
     });
 
     function include(id, guid)
