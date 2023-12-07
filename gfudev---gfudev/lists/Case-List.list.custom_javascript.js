@@ -1,4 +1,32 @@
 $(document).ready(function () {
+    // Date filters for Entity Lists
+    $(".entitylist-filter-option-group label:contains(startdatefilter) input").each(function (index){ // identify the two filters we created
+        $(this).attr('type', 'text');           //Change the original checkbox input control's type to Text
+        $(this).val("");                        //Set null value for the original input control
+        // Create a fake datepicker
+        var fakedate = "<div id='datetimepicker"+index+"' class='datetimepicker input-append input-group' data-provide='datetimepicker'><span class='input-group-addon' tabindex='0' aria-label='Choose a date'><span data-date-icon='icon-calendar fa fa-calendar' class='icon-calendar fa fa-calendar' style='cursor:pointer'></span></span><input type='text' class='fake form-control' /></div>";
+        $(this).closest(".checkbox").parent().prepend(fakedate); //Add fake datepicker to entitylistfilter
+        $(this).closest(".checkbox").hide();    //Hide original filter field
+        $(this).closest(".entitylist-filter-option-group-box-overflow").css("overflow-y","visible"); //Change overflow for parent filter element to allow picker to be visible
+    });
+    $("#entitylist-filters").find(".datetimepicker").each(function(){           // for each of the elements with .datetimepicker class
+        var lang = $("html").data("lang") === "nb-NO" ? 'nb' : 'en-gb';  // set moment locale based on portal language
+        $(this).datetimepicker({                    //for this datetimepicker
+            icons: {                                //set icons
+                time: "fa fa-clock-o",
+                date: "fa fa-calendar",
+                up: "fa fa-arrow-up",
+                down: "fa fa-arrow-down"
+            },
+            format: 'L',                            //set locale to 'L' will format into browser language default
+            locale: lang                            //set language based on portal language 
+        });
+        $(this).on("dp.change", function (e) { // when datetimepicker change function
+            $(this).parent().find(".checkbox input").val(e.date.format('YYYY-MM-DD')); //Get moment object, format to DD/MM/YYYY (format the filter need) and set it as filter input value
+        });
+    });
+    // End Entity List Date Filter
+
   $(".entitylist.entity-grid").on("loaded", function () {
      $(this).children(".view-grid").find("tr[data-id]").each(function (i, e){
         var id = $(this).attr("data-id");

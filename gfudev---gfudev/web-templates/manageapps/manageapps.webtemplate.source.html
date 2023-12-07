@@ -66,6 +66,18 @@ function getContacts() {
         console.log(result);
         },
     });
+
+    //var test = "CaseTitle: hello world";
+    webapi.safeAjax({
+      type: "POST",
+      url: "/_api/incidents(0f061cca-c7bc-ed11-9ac4-00155db1111c)/Microsoft.Dynamics.CRM.con_EscalateCaseAction",
+      contentType: "application/json",
+      //data: JSON.stringify(test),
+      success: function (data, textStatus, xhr) {
+        var result = data;
+        console.log(result);
+      },
+    });
     }
 
     function getLinks() {

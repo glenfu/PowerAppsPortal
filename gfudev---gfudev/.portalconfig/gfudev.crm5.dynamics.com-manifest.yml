@@ -788,7 +788,7 @@ adx_entityformmetadata:
 adx_entitylist:
 - RecordId: 1af55f86-77e5-ec11-bb3c-002248174cae
   DisplayName: Case List
-  CheckSum: c5a5da8e9482c14ecc612eaf6d2a2c3c45cafdf1d2cf1c51e06c898664bd0d68
+  CheckSum: 55cf598d3c4f56752853d178556064456bc46d47fd0f98bf691a2c61ce4e52fe
   IsDeleted: false
 - RecordId: e9b20ef7-dbdc-ec11-bb3c-002248174cae
   DisplayName: PartnerList
@@ -1245,6 +1245,10 @@ adx_sitesetting:
   DisplayName: Webapi/cre1b_link/enabled
   CheckSum: e969637aa7c2fffc14956b48e5329c583fd1b06c71c68a29b00a020567d5036d
   IsDeleted: false
+- RecordId: 491c33c3-1672-ee11-8179-6045bd57c83a
+  DisplayName: Search/EnableFetchingSearchResultsOptimisation
+  CheckSum: 90df31cec4577eeee4e7a66fe7dd5577c83477b05bbd3ce3e75d44faf67d1c16
+  IsDeleted: false
 - RecordId: 50f9ff1f-28ab-ec11-9840-00224817a4f6
   DisplayName: Webapi/account/fields
   CheckSum: ab8da0f46b112e0ca93bd9cb4f4f38d3af6efbe1ca89d67f947ed19128d556a6
@@ -1375,7 +1379,7 @@ adx_sitesetting:
   IsDeleted: false
 - RecordId: a6924b63-493e-ed11-bba2-000d3a8564cc
   DisplayName: CustomCertificates/ImplicitGrantflow
-  CheckSum: 332f4eb8baba95679f96a3dbff68afc8646a4967d822b7f24694e5f7fc917042
+  CheckSum: 62b27a0a0b092b73f2196ec0a17a83ee43ece5d6cc109c645ed4349f0b933266
   IsDeleted: false
 - RecordId: a6d76a13-28ab-ec11-9840-00224817a4f6
   DisplayName: Webapi/account/enabled
@@ -1479,7 +1483,7 @@ adx_sitesetting:
   IsDeleted: false
 - RecordId: cd51e1a3-7eaa-ec11-9840-00224817a7df
   DisplayName: Search/IndexNotesAttachments
-  CheckSum: 0e7408cb06756294655534f422d05798cc7581c440a38fd3d0ed7523cdc520d3
+  CheckSum: 9fa6c91c6df566b98983428574c2a2be3f3912217faf35669228816c999835ee
   IsDeleted: false
 - RecordId: ce51e1a3-7eaa-ec11-9840-00224817a7df
   DisplayName: Authentication/Registration/EmailConfirmationEnabled
@@ -1591,13 +1595,25 @@ adx_urlhistory:
   DisplayName: ~/new-page
   CheckSum: fcaac0d768384341f71a7d7c9694beea4e635aef902f69017ff090107166efdc
   IsDeleted: false
+- RecordId: 15d2423e-f36b-1410-8cb3-00c3bb0bea17
+  DisplayName: ~/PowerBI
+  CheckSum: 4d1eff646c7b5efc992722601e6db5e77ebbab2f1b3b5a1ca74ab494e8c6c4df
+  IsDeleted: false
 - RecordId: 1621433e-f36b-1410-8c95-009d22a7e831
   DisplayName: ~/new-page
   CheckSum: 6a820c5c1c5ede00ae3180d7f335ac111e61ba49b8b8f0cdd01f63f9360c3fec
   IsDeleted: false
+- RecordId: 17d2423e-f36b-1410-8cb3-00c3bb0bea17
+  DisplayName: ~/PowerBI
+  CheckSum: e4dd20fca3179f5efeea1e79f11d33f46353c356dfacad80f1687c4f9837f985
+  IsDeleted: false
 - RecordId: 17da423e-f36b-1410-8997-002cef690efb
   DisplayName: ~/new-page
   CheckSum: 36d63bb86c140d7d563f98c1249e8e495bb4963b4475bad3c448aa9e87959243
+  IsDeleted: false
+- RecordId: 19d2423e-f36b-1410-8cb3-00c3bb0bea17
+  DisplayName: ~/PowerBI
+  CheckSum: 3eb9fdc06b3f5ecbb3e0dde11fd8642e278fde6d51d63ad066289018468fbdf0
   IsDeleted: false
 - RecordId: 4a23433e-f36b-1410-88cd-006c6124d7e6
   DisplayName: ~/cases
@@ -1691,6 +1707,10 @@ adx_urlhistory:
   DisplayName: ~/con_partner_SearchResultPage-deleted
   CheckSum: 8f46aa8b2d27d9841fa1bb86e17aa62e469c58a9d02960ae9bcf5d1c3a73ece8
   IsDeleted: false
+- RecordId: 9617433e-f36b-1410-863e-006afb0b5f15
+  DisplayName: ~/PowerBI
+  CheckSum: 93d1a1bea8d7c419fa1ca26e1b260768bd0cd6abf518dc613a64d3b48696ff0b
+  IsDeleted: false
 - RecordId: 9745433e-f36b-1410-8126-00750c156482
   DisplayName: ~/new-page
   CheckSum: d099ada8a566141ccef22cd4dcf9caf22c45063004eb229e8f87d8309357999e
@@ -1698,6 +1718,10 @@ adx_urlhistory:
 - RecordId: 98e9423e-f36b-1410-8495-00fee782f70b
   DisplayName: ~/PortalWebAPI
   CheckSum: d93aa49b5d5b0ec0b92c941a0c9aea2388c96fb48f8e4b21f13958ec03aa35a2
+  IsDeleted: false
+- RecordId: 9917433e-f36b-1410-863e-006afb0b5f15
+  DisplayName: ~/PowerBI
+  CheckSum: c80b2a92173fb4594270a00b3a080bb16686fd99d0759ce39cfb69090a27fcae
   IsDeleted: false
 - RecordId: 9b25433e-f36b-1410-82d1-009ac8761f60
   DisplayName: ~/partners_SearchResultPage
@@ -1978,7 +2002,7 @@ adx_webfile:
   IsDeleted: false
 - RecordId: dd96a2d1-aad2-4a13-bd98-7daf8e9374fc
   DisplayName: thumbnail.css
-  CheckSum: b17840fadb736a4418614ed788203b643e0bc494ac04bcab0160cf4f62bdcf0d
+  CheckSum: 15f253588002d6c4826368c06b10e3475be3256dd77a2bea76e7b8ec81a90fd1
   IsDeleted: false
 - RecordId: e451e1a3-7eaa-ec11-9840-00224817a7df
   DisplayName: Banner image.png
@@ -2072,6 +2096,10 @@ adx_weblink:
 - RecordId: 44509ee0-d933-42cc-8b99-c280d6558d42
   DisplayName: New page
   CheckSum: 4bf9db87247e4344f35a7f6b4fc2d4fae87b908b6c4200501d34718c2a293fa9
+  IsDeleted: false
+- RecordId: 47406fb6-229b-6c77-2726-ec4c8995ff2b
+  DisplayName: PowerBI
+  CheckSum: 4a3d5368b636880c244426315f82c89065d964465e75ce9dcfa501187c960b76
   IsDeleted: false
 - RecordId: 4efe8567-e2d9-ed11-a7c6-002248162fa8
   DisplayName: Cases
@@ -2487,6 +2515,10 @@ adx_webpage:
   DisplayName: Knowledge Articles
   CheckSum: 5dd627cabe460e81877abe8f8a6a806aef9071ac6baf233c084bf73f75c3d842
   IsDeleted: false
+- RecordId: 6c799515-50bf-b446-bbb8-715a7b2ed2a4
+  DisplayName: PowerBI
+  CheckSum: c7065ddcb178762bfae782458729482fcf9d34b18934412a6fdf67676b6729f1
+  IsDeleted: false
 - RecordId: 6dcfe3fe-9d13-ed11-b83e-000d3a819aba
   DisplayName: DynamicContent
   CheckSum: 275117febed690a45645bc14c5d17aa1b22c8e539d2850f6f7eaa6ca738988b8
@@ -2510,6 +2542,10 @@ adx_webpage:
 - RecordId: 7b74ada9-7eaa-ec11-9840-00224817a4f6
   DisplayName: Pages
   CheckSum: 5e11ecf92c0ea4ee5c56a0a5e31ee3482ed59a38efd405bfad74759295ba8b03
+  IsDeleted: false
+- RecordId: 7bbeceba-3791-fad3-a8a0-05fe05e5e9fd
+  DisplayName: PowerBI
+  CheckSum: 387f5bd5511ba049596228a4e0fbdaa947bcc996f17888bd5d9d00731fd519e8
   IsDeleted: false
 - RecordId: 7c74ada9-7eaa-ec11-9840-00224817a4f6
   DisplayName: Profile
@@ -2709,7 +2745,7 @@ adx_webpage:
   IsDeleted: false
 - RecordId: f76b2bfa-f013-6ccf-3d93-9e2957fb0a0b
   DisplayName: Custom Cases
-  CheckSum: 097dff0930aa6c7f0c6c797ffc6a80d51873ec6cd154f25e34769e109bf86c7c
+  CheckSum: a62c75aa4af65e4a74568a5d4c1d227eeaa76e9c0241432b9365347b292ecd64
   IsDeleted: false
 - RecordId: f8bd8861-e2d9-ed11-a7c6-002248162fa8
   DisplayName: Custom Profile
@@ -2726,6 +2762,10 @@ adx_webpage:
 - RecordId: fe6d8e40-3d96-ed11-aad1-000d3a856e95
   DisplayName: facetedsearch
   CheckSum: 5b5bae364a44ff94f2a913654bb71f26e46ad2ed56fdaec9980f70b9796eba3d
+  IsDeleted: false
+- RecordId: ffb6552e-2f1d-9bb3-bbd5-27ada43d0279
+  DisplayName: PowerBI
+  CheckSum: f610d070f5576a3d614ad5d44cd3e58986bfc0a70412ea7334b01384046c5d65
   IsDeleted: false
 adx_webpageaccesscontrolrule:
 - RecordId: 6bbf8a05-c7df-ec11-bb3d-002248174cae
@@ -2982,7 +3022,7 @@ adx_webtemplate:
   IsDeleted: false
 - RecordId: b507b171-41ab-ec11-9840-00224817a4f6
   DisplayName: manageapps
-  CheckSum: a96f3784b99a8d22b75c2a819f9a5a2a590614e415a53d9384804333c661aa6c
+  CheckSum: ad32409e0ed4cea14cb8d8722ba6d0786c3cdc63e324773acee80f07dd240cb9
   IsDeleted: false
 - RecordId: c42f673e-41ab-ec11-9840-00224817a4f6
   DisplayName: safeAjax
@@ -3175,7 +3215,7 @@ annotation:
   IsDeleted: false
 - RecordId: da98e1f3-68ac-4690-9159-c603bbfc534b
   DisplayName: thumbnail.css
-  CheckSum: 15b82d29e59d2391a9e22bd63286360ca1a1d6303f1f6200cda903c55d95622a
+  CheckSum: f0d46e91b823772ff2cc58eb3ca84f4c19b4bf38ceb908734be926c342700311
   IsDeleted: false
 - RecordId: e1dc7ab4-772b-442a-b2c7-07a6657963fa
   DisplayName: android-chrome-512x512.png

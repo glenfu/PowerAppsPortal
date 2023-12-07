@@ -92,6 +92,17 @@
   statuscode: 2
 - adx_disablepagevalidation: false
   adx_displayimageonly: false
+  adx_displayorder: 27
+  adx_displaypagechildlinks: false
+  adx_name: PowerBI
+  adx_openinnewwindow: false
+  adx_pageid: 7bbeceba-3791-fad3-a8a0-05fe05e5e9fd
+  adx_publishingstateid: b051e1a3-7eaa-ec11-9840-00224817a7df
+  adx_robotsfollowlink: true
+  adx_weblinkid: 47406fb6-229b-6c77-2726-ec4c8995ff2b
+  adx_weblinksetid: 5d20daef-78c2-4be3-a40b-df8e52efa7c9
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
   adx_displayorder: 14
   adx_displaypagechildlinks: false
   adx_name: Cases

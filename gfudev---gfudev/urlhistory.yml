@@ -28,15 +28,30 @@
   adx_urlhistoryid: 135f433e-f36b-1410-8c88-00290fad9fec
   adx_webpageid: e172c190-4fab-ec11-9840-00224817a7df
   timezoneruleversionnumber: 0
+- adx_changeddate: 2023-10-09T03:31:09.0000000Z
+  adx_name: ~/PowerBI
+  adx_urlhistoryid: 15d2423e-f36b-1410-8cb3-00c3bb0bea17
+  adx_webpageid: 6c799515-50bf-b446-bbb8-715a7b2ed2a4
+  timezoneruleversionnumber: 0
 - adx_changeddate: 2022-06-06T09:04:44.0000000Z
   adx_name: ~/new-page
   adx_urlhistoryid: 1621433e-f36b-1410-8c95-009d22a7e831
   adx_webpageid: ca84d49f-77e5-ec11-bb3c-002248174cae
   timezoneruleversionnumber: 0
+- adx_changeddate: 2023-10-09T03:46:19.0000000Z
+  adx_name: ~/PowerBI
+  adx_urlhistoryid: 17d2423e-f36b-1410-8cb3-00c3bb0bea17
+  adx_webpageid: 6c799515-50bf-b446-bbb8-715a7b2ed2a4
+  timezoneruleversionnumber: 0
 - adx_changeddate: 2022-05-26T10:12:28.0000000Z
   adx_name: ~/new-page
   adx_urlhistoryid: 17da423e-f36b-1410-8997-002cef690efb
   adx_webpageid: b59b0bf2-9b92-4bb1-b231-6ddcef1bf8da
+  timezoneruleversionnumber: 0
+- adx_changeddate: 2023-10-09T04:02:22.0000000Z
+  adx_name: ~/PowerBI
+  adx_urlhistoryid: 19d2423e-f36b-1410-8cb3-00c3bb0bea17
+  adx_webpageid: 6c799515-50bf-b446-bbb8-715a7b2ed2a4
   timezoneruleversionnumber: 0
 - adx_changeddate: 2023-01-27T07:01:51.0000000Z
   adx_name: ~/cases
@@ -153,6 +168,11 @@
   adx_urlhistoryid: 9536433e-f36b-1410-8997-00205a5c689c
   adx_webpageid: d6f9abac-2b8b-a628-5072-a5cb0bed4bc7
   timezoneruleversionnumber: 0
+- adx_changeddate: 2023-10-09T03:46:34.0000000Z
+  adx_name: ~/PowerBI
+  adx_urlhistoryid: 9617433e-f36b-1410-863e-006afb0b5f15
+  adx_webpageid: 6c799515-50bf-b446-bbb8-715a7b2ed2a4
+  timezoneruleversionnumber: 0
 - adx_changeddate: 2022-03-24T03:09:52.0000000Z
   adx_name: ~/new-page
   adx_urlhistoryid: 9745433e-f36b-1410-8126-00750c156482
@@ -161,6 +181,11 @@
   adx_name: ~/PortalWebAPI
   adx_urlhistoryid: 98e9423e-f36b-1410-8495-00fee782f70b
   adx_webpageid: 8a87cee5-64e5-4bf7-985d-f7ef7136cc97
+  timezoneruleversionnumber: 0
+- adx_changeddate: 2023-10-09T04:04:48.0000000Z
+  adx_name: ~/PowerBI
+  adx_urlhistoryid: 9917433e-f36b-1410-863e-006afb0b5f15
+  adx_webpageid: 6c799515-50bf-b446-bbb8-715a7b2ed2a4
   timezoneruleversionnumber: 0
 - adx_changeddate: 2022-11-07T07:55:39.0000000Z
   adx_name: ~/partners_SearchResultPage

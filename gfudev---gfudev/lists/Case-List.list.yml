@@ -5,7 +5,9 @@ adx_calendar_timezonemode: 756150000
 adx_entitylistid: 1af55f86-77e5-ec11-bb3c-002248174cae
 adx_entityname: incident
 adx_entitypermissionsenabled: true
-adx_filter_enabled: false
+adx_filter_definition: '{"xmlns.adx":"http://schemas.adxstudio.com/fetch/","distinct":true,"entity":{"name":"incident","all-attributes":true,"filters":[{"adx.filtertype":"fetchfilter","adx.id":0,"adx.uiorder":0,"adx.rawfetch":"<filter type=\"or\" adx:uiinputtype=\"dynamic\" adx:uiname=\"Created from\">\n      <condition value=\"startdatefilter\" attribute=\"createdon\" operator=\"on-or-after\" adx:uiinputtype=\"dynamic\" />\n</filter>","type":"or","adx.uiinputtype":"dynamic","adx.uiname":"Created from","filters":[],"conditions":[{"value":"startdatefilter","attribute":"createdon","operator":"on-or-after","adx.uiinputtype":"dynamic","adx.id":"0"}]},{"adx.filtertype":"fetchfilter","adx.id":1,"adx.uiorder":1,"adx.rawfetch":"<filter type=\"or\" adx:uiinputtype=\"dynamic\" adx:uiname=\"Created to\" >\n      <condition value=\"startdatefilter\" attribute=\"createdon\" operator=\"on-or-before\" adx:uiinputtype=\"dynamic\" />\n</filter>","type":"or","adx.uiinputtype":"dynamic","adx.uiname":"Created to","filters":[],"conditions":[{"value":"startdatefilter","attribute":"createdon","operator":"on-or-before","adx.uiinputtype":"dynamic","adx.id":"0"}]}],"links":[]}}'
+adx_filter_enabled: true
+adx_filter_orientation: 756150001
 adx_filteraccount: con_approvingteam
 adx_filterportaluser: primarycontactid
 adx_idquerystringparametername: id

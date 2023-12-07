@@ -16,6 +16,9 @@
 - adx_name: Webapi/cre1b_link/enabled
   adx_sitesettingid: 3316636c-40ab-ec11-9840-00224817a4f6
   adx_value: true
+- adx_name: Search/EnableFetchingSearchResultsOptimisation
+  adx_sitesettingid: 491c33c3-1672-ee11-8179-6045bd57c83a
+  adx_value: false
 - adx_name: Webapi/account/fields
   adx_sitesettingid: 50f9ff1f-28ab-ec11-9840-00224817a4f6
   adx_value: '*'
@@ -128,9 +131,11 @@
     775B3290D62652EBAA3D2001F72908E5AD010EBB
 
     395F914A27B704C83B638861E0A24EEFA24D427E
+
+    577222e2-5a30-4e24-ae89-376b568e9068
   adx_name: CustomCertificates/ImplicitGrantflow
   adx_sitesettingid: a6924b63-493e-ed11-bba2-000d3a8564cc
-  adx_value: 577222e2-5a30-4e24-ae89-376b568e9068
+  adx_value: 0F11EB9AA424560AE9ABFAFF55226C828104AD69
 - adx_name: Webapi/account/enabled
   adx_sitesettingid: a6d76a13-28ab-ec11-9840-00224817a4f6
   adx_value: true
@@ -216,7 +221,7 @@
   adx_value: false
 - adx_name: Search/IndexNotesAttachments
   adx_sitesettingid: cd51e1a3-7eaa-ec11-9840-00224817a7df
-  adx_value: True
+  adx_value: true
 - adx_name: Authentication/Registration/EmailConfirmationEnabled
   adx_sitesettingid: ce51e1a3-7eaa-ec11-9840-00224817a7df
   adx_value: true
